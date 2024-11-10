@@ -1,11 +1,11 @@
 <style>
     .bg {
-        background-color: #222831;
+        background-color: #005b972f;
         color: #fff;
         padding: 20px;
         padding-left: 25px;
         padding-right: 25px;
-        border-radius: 5px;
+        border-radius: 8px;
     }
     .title {
         font-size: 20px;
@@ -14,15 +14,59 @@
         color: #00C2FF;
         font-weight: bold;
     }
+    .title::before {
+        content: "ℹ️ ";
+    }
+    
     [data-scheme="light"] .bg {
-        background-color: #ddd9e7;
         color: #000;
     }
     [data-scheme="light"] .title {
-        color: #007acc;
+        color: #004471;
+    }
+
+    /* make red alert and yellow warning types */
+    .bg.alert {
+        background-color: #ff00002f;
+        color: #fff4f4;
+        .title {
+            color: #ff0000;
+        }
+        .title::before {
+            content: "🚨 ";
+        }
+    }
+
+    [data-scheme="light"] .bg.alert {
+        background-color: #ffc7c7;
+        color: #420000;
+
+        .title {
+            color: #c30000;
+        }
+    }
+
+    .bg.warning {
+        background-color: #ffcc002f;
+        color: #fffbeb;
+        .title {
+            color: #ffcc00;
+        }
+        .title::before {
+            content: "⚠️ ";
+        }
+    }
+
+    /* use a dark yellow for light theme */
+    [data-scheme="light"] .bg.warning {
+        background-color: #f8ebb2;
+        color: #312700;
+        .title {
+            color: #a88600;
+        }
     }
 </style>
-<div class="bg">
+<div class="bg {{ .Get "type" }}">
     <p class="title">{{ .Get "title" }}</p>
     {{ .Inner }}
 </div>
