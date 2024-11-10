@@ -1,20 +1,20 @@
 ---
 title: Hello World
-description: Welcome to Hugo Theme Stack
+description: I have a personal blog site now!
 slug: hello-world
-date: 2022-03-06 00:00:00+0000
-image: cover.jpg
-categories:
-    - Example Category
-tags:
-    - Example Tag
+date: 2024-11-10 00:00:00+0000
+# image: cover.jpg
+# categories:
+#     - Example Category
+# tags:
+#     - Example Tag
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!
+Today is the day where I finally set up a blog! I did write a blog post [here](https://blog.winter-software.com/2024/04/01/Making_Your_First_Misskey_Plugin) before. That will stay, but ill probably pull that post into here to keep all my posts in 1 place.
 
-For more information about this theme, check the documentation: https://stack.jimmycai.com/
+## Anyways what will I be posting here?
 
-Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
+Probably me explaining stuff that I have worked on, tutorials, and that sort of thing but we will see.
 
-> Photo by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski) on [Unsplash](https://unsplash.com/)
+Alright thats it for now byee!

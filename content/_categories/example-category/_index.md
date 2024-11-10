@@ -1,6 +1,6 @@
 ---
-title: Example Category
-description: A description of this category
+title: Programming
+description: Programming related stuff
 image:
 
 # Badge style
