@@ -1,0 +1,28 @@
+<style>
+    .bg {
+        background-color: #222831;
+        color: #fff;
+        padding: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-radius: 5px;
+    }
+    .title {
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: #00C2FF;
+        font-weight: bold;
+    }
+    [data-scheme="light"] .bg {
+        background-color: #ddd9e7;
+        color: #000;
+    }
+    [data-scheme="light"] .title {
+        color: #007acc;
+    }
+</style>
+<div class="bg">
+    <p class="title">{{ .Get "title" }}</p>
+    {{ .Inner }}
+</div>
