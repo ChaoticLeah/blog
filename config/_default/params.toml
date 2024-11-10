@@ -34,11 +34,11 @@ default = "Licensed under CC BY-NC-SA 4.0"
 [[widgets.homepage]]
 type = "search"
 
-[[widgets.homepage]]
-type = "archives"
+# [[widgets.homepage]]
+# type = "archives"
 
-[widgets.homepage.params]
-limit = 5
+# [widgets.homepage.params]
+# limit = 5
 
 [[widgets.homepage]]
 type = "categories"
@@ -77,7 +77,7 @@ enabled = true
 ## Comments
 [comments]
 enabled = true
-provider = "disqus"
+provider = "cactus"
 
 [comments.disqusjs]
 shortname = ""
@@ -125,7 +125,7 @@ lang = ""
 [comments.cactus]
 defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
 serverName = "cactus.chat"
-siteName = ""
+siteName = "leahs-blog"
 
 [comments.giscus]
 repo = ""
