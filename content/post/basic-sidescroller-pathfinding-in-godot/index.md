@@ -41,7 +41,7 @@ When building new buildables its nodes are usually linked automatically. Each bu
 
 ![Some stairs with their pathfinding nodes and connections visualised. The numbers represent the number of connections of each node.](Stairs-Pathfinding-On.png)
 
-This is almost the same case as previously but I had to manually register the nodes since the auto register would unlink the 2. It’s also one of the few cases where 3 links will occur(which isnt supported by the auto-linking). It’s also the only case in my game where pathfinding goes up or down vertically so it’s marked a darker blue to signify that. For now, this doesn’t do much but could be used to trigger a custom walk animation, sound, or something else.
+This is almost the same case as previously but I had to manually register the nodes since the auto register would unlink the 2. It’s also one of the few cases where 3 links will occur(which isnt supported by the auto-linking). It’s also the only case in my game where pathfinding goes up or down vertically so it’s marked a darker blue to signify that. For now, this doesn’t do much but could be used to trigger a custom walk animation, sound, or something else. On the topic of special nodes there is also a teleport node (which is used to link the outside of doors to the inside of doors which just teleports the npc from 1 node to the other since really the inside of the room is far under the rest of the train)
 
 ### Edge cases
 
