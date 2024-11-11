@@ -16,3 +16,9 @@ disqusShortname = "leahs-blog"
 
 [pagination]
 pagerSize = 5
+
+[outputs]
+home = ['html', 'rss']
+section = ['html', 'rss']
+taxonomy = ['html']
+term = ['html']
