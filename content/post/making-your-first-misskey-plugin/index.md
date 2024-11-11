@@ -9,6 +9,41 @@ categories:
     - Tutorial
 tags:
     - AIscript
+links:
+    - title: Original blog post
+      description: Mirror of this blog post on my blog
+      website: https://blog.winter-software.com/2024/04/01/Making_Your_First_Misskey_Plugin
+    - title: AIscript Get Started
+      description: GitHub page with basics of AIscript syntax in English
+      website: https://github.com/aiscript-dev/aiscript/blob/master/translations/en/docs/get-started.md
+    - title: Misskey API documentation
+      description: API documentation for Misskey
+      website: https://misskey.io/api-doc
+    - title: AIscript online testing tool
+      description: Tool for testing AIscript code with better error feedback
+      website: https://aiscript-dev.github.io/aiscript/
+    - title: AIscript English docs
+      description: English documentation for AIscript language
+      website: https://github.com/aiscript-dev/aiscript/tree/master/translations/en/docs
+    - title: Misskey Hub Plugin API reference
+      description: Plugin API reference for Misskey
+      website: https://misskey-hub.net/en/docs/for-developers/plugin/plugin-api-reference/
+    - title: Plugin header docs
+      description: Documentation for creating a plugin header for Misskey
+      website: https://misskey-hub.net/en/docs/for-developers/plugin/create-plugin/
+    - title: Visual Studio Marketplace AIscript plugin
+      description: VS Code plugin for AIscript syntax highlighting
+      website: https://marketplace.visualstudio.com/items?itemName=ThatOneCalculator.aiscript
+    - title: Pronoun Plugin by ChaosKitsune
+      description: GitHub page for the Pronoun Plugin
+      website: https://github.com/ChaoticLeah/pronoun-plugin
+    - title: Plugin page
+      description: Example plugins I made. Contains an older pronoun plugin, and a smaller plugin I wrote.
+      website: https://woem.men/@ChaosKitsune/pages/1704460749056
+    - title: Plural Plugin
+      description: The plural plugin code and instructions
+      website: https://woem.men/@ChaosKitsune/pages/1711151651951
+
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 

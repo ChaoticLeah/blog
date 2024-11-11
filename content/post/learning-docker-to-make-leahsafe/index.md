@@ -6,6 +6,11 @@ date: 2024-11-11 17:00:00+0000
 image: cover.png
 categories:
  - Programming
+links:
+    - title: The project repo
+      description: Read more about the project or install it here
+      website: https://github.com/ChaoticLeah/leahsafe
+      image: cover.png
 # tags:
 #     - Example Tag
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)

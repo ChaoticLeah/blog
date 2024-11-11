@@ -1,9 +1,21 @@
 ---
 title: Procedural world generation in roblox
 description: How I generate natural terrain in my roblox game
-slug: roblox-world-procgen
-date: 2024-11-24 20:48:58+0000
-# image: cover.webp
+slug: world-procgen-in-roblox
+date: 2024-11-11 21:02:00+0000
+image: DDNight.png
+links:
+    - title: The old version of the game
+      description: The old version containing building, destroying, and some more stuff to explore. This is before the rewrite and redesign
+      website: https://www.roblox.com/games/10101337094/Procedural-Game-Test
+      image: image-2.png
+    - title: The rewrite of the game
+      description: The new version rewrite containing more polish on the game-feel, and some better terrain generation
+      website: https://www.roblox.com/games/12519962736/Desolate-Dominion
+      image: DDStoneBiome.png
+    - title: Youtube splines talk
+      description: A talk given on how minecraft does its terrain generation
+      website: https://www.youtube.com/watch?v=ob3VwY4JyzE
 categories:
     - Programming
 # tags:
@@ -27,7 +39,9 @@ Basic world generation can be done with Perlin noise to generate a height map. T
 
 ![Basic pretty flat terrain that isnt very intresting](image.png)
 
-To fix this we need to up the octaves. It's more work but provides better results. Roblox does not provide a function to generate Perlin noise with octaves so we have to make our own. Still, at a distance, it looks very much the same. There are no biomes, no big flat lands, and no huge mountains. Cliffs are impossible like this too.
+![A chart comparing different amounts of octaves in perlin noise. More octives tends to lead to more detailed and intresting terrain](index-2889073799.png)
+
+To fix this we need to up the octaves. It's more work for the server but provides better results. Roblox does not provide a function to generate Perlin noise with octaves so we have to make our own. Still, at a distance, it looks very much the same. There are no biomes, no big flat lands, and no huge mountains. Cliffs are impossible like this too.
 
 ### Leveling up our world generation
 
@@ -35,9 +49,9 @@ So our world looks the same from a distance and can get boring quickly after wan
 
 #### Splines
 
-World generation can be made more interesting with splines. If you want a more in-depth explanation of this I learned from [this talk](https://www.youtube.com/watch?v=ob3VwY4JyzE) explaining how Minecraft does it. Basically, we take our basic Perlin noise output and run it through a spline. This can transform many things including creating crazy mountains, flat valleys, and more. Alone this gives is crazy terrain, but still, at a distance it's very much the same.
+World generation can be made more interesting with splines. If you want a more in-depth explanation of this I learned from [this talk](https://www.youtube.com/watch?v=ob3VwY4JyzE) explaining how Minecraft does it. Basically, we take our basic Perlin noise output and run it through a spline. This can transform many things including creating crazy mountains, flat valleys, and more. Alone this can give us crazy terrain, but still, at a distance it's very much the same.
 
-![Splines used to create super exadurated mountains](image-1.png)
+![Splines used to create super exaggerated mountains](image-1.png)
 
 ##### Combining splines
 
@@ -49,7 +63,7 @@ In the talk, they talked about using 3 splines to simulate erosion and stuff lik
 Biomes in this system are not like actual biomes in the sense that each "biome" can only have 1 ground material. This is fine though since we can split what would be 1 biome into multiple sub-biomes which basically do the same thing.
 {{% /callout %}}
 
-Ok so now we have an interesting and varied height generated that isn't too repetitive unless we really zoom far out, but we don't know what material is going to be there. For this, I made a "biome system" which allows me to specify its elevation, slope, heat, rareness, moisture, material, and "spawnables". We will get back to spawnables later but for now, we have a list of biomes (aka materials) with parameters. Note: Parameters on biomes can be set to nil meaning "it doesn't matter what this is". We already have the height from the previous calculation so we can find the best fit for that but we need to do the rest now. With a few more perlin noisemaps we can generate the heat and moisture values. I decided to go with heat and moisture for generation since after doing research into biomes these are the 2 variables that seem to be the biggest things that separate biomes. 
+Ok so now we have interesting and varied terrain height generated that isn't too repetitive unless we really zoom far out, but we don't know what material to place where. For this, I made a "biome system" which allows me to specify each biomes elevation, slope, heat, rareness, moisture, material, and "spawnables". We will get back to spawnables later but for now, we have a list of biomes (aka materials) with parameters. Note: Parameters on biomes can be set to nil meaning "it doesn't matter what this is". We already have the height from the previous calculation so we can find the best fit for that but we need to do the rest now. With a few more perlin noisemaps we can generate the heat and moisture values. I chose heat and moisture as the primary factors for generation because, based on my research, these two variables play the biggest role in distinguishing different biomes.
 
 ![A 2D chart with Annual precipitation on the y axis, and Average annual temperature on the x axis. On the graph are many biomes spread over it](th-412295043.jpg)
 
@@ -85,7 +99,7 @@ All of this combined makes up the mountains and hills in this game, but in the c
 
 ### What about the rest of the environment?
 
-Trees and stuff are under the "spawnables" thing that I said we would get into later. Each spawnable has a rareness, a y-offset, and a model (which also includes any scripts needed for this spawnable) Then it just places them randomly in position and rotation while making sure the models down is facing the slope of the terrain so everything doesn't feel too straight and the same. This allows me to add treasure chests, trees, abandoned houses, any nature stuff, and much more.
+Trees and stuff are under the "spawnables" thing that I said we would get into later. Each spawnable has a rareness, a y-offset, and a model (which also includes any scripts needed for this spawnable) Then it just places them randomly in position and rotation while making sure the models down is facing the slope of the terrain so everything doesn't feel too straight and repetitive. This allows me to add treasure chests, trees, abandoned houses, any nature stuff, and much more.
 
 ![The beach with some palmtrees on the shore](image-2.png)
 
@@ -117,8 +131,12 @@ These Roblox servers im using can only do so much with such limited specs so I h
 
 ## Chunk unloading
 
-Chunks that have not been modified by the player will be unloaded if the server has some free time. If the server is overwhelmed with other stuff it will wait since unloading is also quite a lot of work deleting all the spawnables, and clearing all of the terrain in the chunk.
+Chunks that have not been modified by the player will be unloaded if the server has some free time (when no players are near the chunk in question). If the server is overwhelmed with other stuff it will wait since unloading is also quite a lot of work for the server with deleting all the spawnables, and clearing all of the terrain in the chunk.
 
 ## Last few things
 
 I have not mentioned it yet but this game has an ocean. This is easy since we just place a bunch of water and then the terrain generator overrides the bits of water with land if needed. Anything under the sea level will now have water in it.
+
+If you want to test this game there are 2 versions. [Version 1](https://www.roblox.com/games/10101337094/Procedural-Game-Test) has building, and some things which version 2 doesnt have, and [Version 2](https://www.roblox.com/games/12519962736/Desolate-Dominion) has many changes, fixes, and other features. Version 2 is a full rewrite of the game.
+
+If you thought this article was intresting I might be able to make one on the anticheat in this game so let me know.
