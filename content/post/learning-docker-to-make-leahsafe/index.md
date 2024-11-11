@@ -5,11 +5,15 @@ slug: learning-docker-to-make-leahsafe
 date: 2024-11-11 17:00:00+0000
 image: cover.png
 categories:
-    - Programming
+ - Programming
 # tags:
-#     - Example Tag
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+#     - Example Tag
+weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
+
+{{% callout title="What this article is" %}}
+This is a hybrid of me telling a story and some notes for when I use docker again. I may get some stuff wrong. If you know docker pretty well you probably know all the docker bits very well. Feel free to correct me if I get stuff wrong.
+{{% /callout %}}
 
 ## Introduction
 
@@ -22,6 +26,8 @@ Right now the only known bug is that dark theme is a little broken on the home p
 {{% /callout %}}
 
 ## Learning to publish a docker container
+
+For more details please refer to [this article](https://medium.com/@komalminhas.96/a-step-by-step-guide-to-build-and-push-your-own-docker-images-to-dockerhub-709963d4a8bc). Ill just be going over the main points.
 
 ### Building
 
@@ -36,7 +42,7 @@ Next, we need to tag the image. For this we will use `docker tag`, and according
 
 ### Pushing
 
-Finally, we need to push the image after it has been made. Running `docker push chaoticleah/leahsafe-server:latest` will push this image. You will also have to log into your dockerhub account once before running this. `docker login` should do the trick (Just read what it says and follow along to log in)
+Finally, we need to push the image after it has been made. Following this format `docker push <image name> <version name>`, running `docker push chaoticleah/leahsafe-server:latest` will push this image. You will also have to log into your dockerhub account once before running this. `docker login` should do the trick (Just read what it says and follow along to log in)
 
 ### Publishing the frontend
 
