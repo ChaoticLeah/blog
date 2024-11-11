@@ -1,12 +1,51 @@
-<span id="view-placeholder" title="{{ i18n "article.page_views" }}"></span>
+
+<!-- <script>
+  // Set local-specific settings for GoatCounter
+  window.goatcounter = {
+    allow_local: true, // Allow requests from localhost for testing
+    path: window.location.pathname, // Use the current page's path
+  };
+</script>
+
+<script
+  data-goatcounter="https://{{ .Site.Params.pageViews.goatcounter }}.goatcounter.com/count"
+  data-goatcounter-settings='{"allow_local": true}'
+  async
+  src="/count.js"
+></script>
 
 <script>
-    // Fetch the goatcounter data
-    fetch("https://{{ .Site.Params.pageViews.goatcounter }}.goatcounter.com/counter/" + encodeURIComponent('{{ .RelPermalink }}'.replace(/(\/)?$/, '')) + '.json')
-        .then(response => response.json())
-        .then(data => {
-            // Inject the data into the span element
-            document.getElementById('view-placeholder').textContent = data.goatcounter;
-        })
-        .catch(error => console.error('Error fetching view data:', error));
+  // {{ .Site.Params.pageViews.goatcounter }}
+  // Fetch the view count from the GoatCounter API
+  fetch(
+    "https://leahs-blog.goatcounter.com/counter" +
+      window.location.pathname +
+      ".json"
+  )
+    .then((response) => response.json())
+    .then((data) => {
+      // Assuming data.view_count holds the view count
+      const viewCount = data.value;
+      document.getElementById("views").textContent = `Views: ${viewCount}`;
+    })
+    .catch((error) => {
+      console.error("Error fetching view count:", error);
+      document.getElementById("views").textContent =
+        "Error loading view count.";
+    });
+</script>
+
+<span>
+  <em id="views" class="article-subtitle"> ∞ </em>
+</span> -->
+
+<div class="article-time">Views:<div id="stats">∞</div></div>
+
+<script>
+    var r = new XMLHttpRequest();
+    r.addEventListener('load', function() {
+        document.querySelector('#stats').innerText = JSON.parse(this.responseText).count
+    })
+    r.open('GET', 'https://leahs-blog.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
+    r.send()
 </script>
