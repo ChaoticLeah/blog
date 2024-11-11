@@ -74,6 +74,10 @@ enabled = true
 [imageProcessing.content]
 enabled = true
 
+[pageViews]
+goatcounter = "leahs-blog"
+ShowPageViews = true
+
 ## Comments
 [comments]
 enabled = true

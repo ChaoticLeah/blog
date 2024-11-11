@@ -1,0 +1,12 @@
+<span id="view-placeholder" title="{{ i18n "article.page_views" }}"></span>
+
+<script>
+    // Fetch the goatcounter data
+    fetch("https://{{ .Site.Params.pageViews.goatcounter }}.goatcounter.com/counter/" + encodeURIComponent('{{ .RelPermalink }}'.replace(/(\/)?$/, '')) + '.json')
+        .then(response => response.json())
+        .then(data => {
+            // Inject the data into the span element
+            document.getElementById('view-placeholder').textContent = data.goatcounter;
+        })
+        .catch(error => console.error('Error fetching view data:', error));
+</script>
