@@ -1,11 +1,48 @@
-<!-- 
-<div class="article-time">Views:<div id="stats">∞</div></div>
+<div class="article-time">
+  Views:
+  <div id="stats">∞</div>
+</div>
 
 <script>
+  function addView(article_name) {
     var r = new XMLHttpRequest();
-    r.addEventListener('load', function() {
-        document.querySelector('#stats').innerText = JSON.parse(this.responseText).count
-    })
-    r.open('GET', 'https://leahs-blog.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
-    r.send()
-</script> -->
+    r.addEventListener("load", function () {
+      document.querySelector("#stats").innerText = JSON.parse(
+        this.responseText
+      ).count;
+    });
+    r.open(
+      "GET",
+      "https://views.leahdevs.xyz/api/increment/" +
+        encodeURIComponent(article_name)
+    );
+    r.send();
+  }
+
+  function loadViews(article_name) {
+    var r = new XMLHttpRequest();
+    r.addEventListener("load", function () {
+      document.querySelector("#stats").innerText = JSON.parse(
+        this.responseText
+      ).count;
+    });
+    r.open(
+      "GET",
+      "https://views.leahdevs.xyz/api/" + encodeURIComponent(article_name)
+    );
+    r.send();
+  }
+
+  (function () {
+    const current_location = location.pathname.includes("/p/")
+      ? location.pathname.split("/p/")[1].split("/")[0]
+      : location.pathname;
+    const article_name = "{{.Permalink}}".split("/p/")[1].split("/")[0];
+
+    if (current_location === article_name) {
+      addView(article_name);
+    } else {
+      loadViews(article_name);
+    }
+  })();
+</script>

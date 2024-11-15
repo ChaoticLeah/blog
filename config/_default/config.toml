@@ -14,6 +14,7 @@ hasCJKLanguage = false
 # Change it to your Disqus shortname before using
 disqusShortname = "leahs-blog"
 
+# Build timeout for the git build pipeline
 timeout = 10000
 
 [pagination]
