@@ -35,23 +35,23 @@ I changed it to Vite, Svelte 5, TS, and Tailwind. But why? Well, I wanted to lea
 The old web UI just showed you a list of recipes, and the recipe, the steps, ingredients, and cookware needed. It also had a shopping list. In the rewrite, we also have all these features. I have also added a lot of extra useful cooking tools.
 
 So here's what is new to this fork:
- - A built-in timer.
-    - When a recipe specifies a time such as "bake for 2 hours", you can click on the "2 hours", and a timer will pop up already with 2 hours filled in.
- - Built-in measurement conversion
-    - When a measurement is mentioned in a recipe such as "1 cup", you can click on it and convert it to any unit you want.
- - The ability to mark off ingredients on your shopping list
- - Some smaller quality-of-life features
-    - A keep the screen on setting so your phone wont go to sleep when the recipe is up (only works on HTTPS sites since that's the limitation of the web API)
-    - Some more settings to customize if you would like your conversions to be rounded off for you
-    - Recipes now show extra stats to you like how many people it serves and so on
-    - It's a PWA! You can download this web app on ur phone
-    - It has a new modern look (maybe it's a stretch to call it a feature but it's my blog sooooo)
+- A built-in timer.
+   - When a recipe specifies a time such as "bake for 2 hours", you can click on the "2 hours", and a timer will pop up already with 2 hours filled in.
+- Built-in measurement conversion
+   - When a measurement is mentioned in a recipe such as "1 cup", you can click on it and convert it to any unit you want.
+- The ability to mark off ingredients on your shopping list
+- Some smaller quality-of-life features
+   - A keep the screen on setting so your phone wont go to sleep when the recipe is up (only works on HTTPS sites since that's the limitation of the web API)
+   - Some more settings to customize if you would like your conversions to be rounded off for you
+   - Recipes now show extra stats to you like how many people it serves and so on
+   - It's a PWA! You can download this web app on ur phone
+   - It has a new modern look (maybe it's a stretch to call it a feature but it's my blog sooooo)
 
 #### What I want to add:
- - The ability to sort your shopping list by category (so all the meats go together, all the fruits go together, and so on). This would be useful when shopping to save time. This is already possible using the other commands, but not in the frontend
- - A tool to scale recipes to any number of people (this will be experimental since it can scale the amounts of stuff, but not cook times and stuff. Due to this I'm unsure of if this will be added)
- - Maybe the possibility to add recipes from the front end... though at this point thats only a slight maybe because that would require an account system, and its a whole lot of headache for 1 feature. For now, you could pair this up with something like [File Browser](https://github.com/filebrowser/filebrowser) to be able to add recipes from the web.
- - Some sort of docker container to easily install this. This will probably only be for the web command.
+- The ability to sort your shopping list by category (so all the meats go together, all the fruits go together, and so on). This would be useful when shopping to save time. This is already possible using the other commands, but not in the frontend
+- A tool to scale recipes to any number of people (this will be experimental since it can scale the amounts of stuff, but not cook times and stuff. Due to this I'm unsure of if this will be added)
+- Maybe the possibility to add recipes from the front end... though at this point thats only a slight maybe because that would require an account system, and its a whole lot of headache for 1 feature. For now, you could pair this up with something like [File Browser](https://github.com/filebrowser/filebrowser) to be able to add recipes from the web.
+- Some sort of docker container to easily install this. This will probably only be for the web command.
 
 ##### I want to help! Can I?
 Yes, you can help. The repo is down below.
