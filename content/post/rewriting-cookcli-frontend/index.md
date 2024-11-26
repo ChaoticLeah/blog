@@ -1,7 +1,7 @@
 ---
-title: Rewriting the cookCLI frontend
+title: Rewriting the CookCLI frontend
 description: The old frontend is a bit dated, and it doesnt look like the project is active anymore. Time to fix that
-slug: rewriting-the-Cookcli-frontend
+slug: rewriting-the-cookcli-frontend
 date: 2024-11-26 00:00:00+0000
 image: cover.webp
 categories:
