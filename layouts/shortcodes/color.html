@@ -1,0 +1,9 @@
+<style>
+    .color {
+        color: var(--text-color, black); /* Default to black */
+    }
+</style>
+
+<span class="color" style="--text-color: {{ .Get 0 | default "black" }}">
+    {{ .Inner }}
+</span>

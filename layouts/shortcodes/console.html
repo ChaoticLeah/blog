@@ -1,0 +1,28 @@
+<script>
+  (() => {
+    // Get the delay from the shortcode parameter or default to 0 (no delay)
+    const delay = parseInt('{{ .Get "delay" | default "0" }}', 10) || 0;
+
+    // Function to log messages based on the type
+    const logMessage = () => {
+      switch ('{{ .Get "type" }}') {
+        case "error":
+          console.error('{{ .Get "value" }}');
+          break;
+        case "warn":
+          console.warn('{{ .Get "value" }}');
+          break;
+        default:
+          console.log('{{ .Get "value" }}');
+          break;
+      }
+    };
+
+    // If a delay is provided, delay the log
+    if (delay > 0) {
+      setTimeout(logMessage, delay);
+    } else {
+      logMessage();
+    }
+  })();
+</script>

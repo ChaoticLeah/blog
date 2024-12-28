@@ -1,0 +1,36 @@
+<style>
+    @keyframes shake {
+        0%, 100% { transform: translate(0, 0); }
+        25% { transform: translate(calc(var(--intensity, 2px) * -1), calc(var(--intensity, 2px) * -1)); }
+        50% { transform: translate(var(--intensity, 2px), var(--intensity, 2px)); }
+        75% { transform: translate(calc(var(--intensity, 1px) * -1), var(--intensity, 1px)); }
+    }
+
+    .shake span {
+        display: inline-block;
+        animation: shake var(--shake-speed, 0.5s) infinite;
+    }
+
+    /* Add randomness */
+    .shake span:nth-child(odd) {
+        animation-duration: calc(var(--shake-speed, 0.5s) * 0.8);
+        animation-delay: calc(var(--delay, 0) * 50ms);
+    }
+
+    .shake span:nth-child(even) {
+        animation-duration: calc(var(--shake-speed, 0.5s) * 1.2);
+        animation-delay: calc(var(--delay, 0) * 100ms);
+    }
+</style>
+
+<div class="shake">
+    {{ $speed := (or (.Get "speed") "0.5s") }}
+    {{ $intensity := (or (.Get "intensity") "2px") }}
+    {{ range $index, $char := split .Inner "" }}
+        <span style='--shake-speed: {{ $speed }};
+                      --intensity: {{ $intensity }};
+                      --delay: {{ $index }}'>
+            {{ $char }}
+        </span>
+    {{ end }}
+</div>
