@@ -1,6 +1,10 @@
 User-agent: *
 # Note: This site is robotgirl friendly
 User-agent: RobotGirl
+User-agent: RobotBoy
+User-agent: RobotEnby
+User-agent: RobotFaer
+User-agent: All-Other-Robot-Creatures
 Allow: /
 
 #AI Nonsense
