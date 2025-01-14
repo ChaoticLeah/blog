@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leahs Blog</title><link>https://blog.leahdevs.xyz/</link><description>Recent content on Leahs Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://blog.leahdevs.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>My takeaways from MiSide</title><link>https://blog.leahdevs.xyz/p/my-takeaways-from-miside/</link><pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.leahdevs.xyz/p/my-takeaways-from-miside/</guid><description>&lt;img src="https://blog.leahdevs.xyz/p/my-takeaways-from-miside/cover.png" alt="Featured image of post My takeaways from MiSide" />&lt;script>
+(() => {
+const delay = parseInt('0', 10) || 0;
+const logMessage = () => {
+switch ('') {
+case "error":
+console.error('Cappie is the best and must be protected at all costs. Also hi you found this pages easter egg.');
+break;
+case "warn":
+console.warn('Cappie is the best and must be protected at all costs. Also hi you found this pages easter egg.');
+break;
+default:
+console.log('Cappie is the best and must be protected at all costs. Also hi you found this pages easter egg.');
+break;
+}
+};
+if (delay > 0) {
+setTimeout(logMessage, delay);
+} else {
+logMessage();
+}
+})();
+&lt;/script>
+&lt;script>
+(() => {
+const delay = parseInt('20000', 10) || 0;
+const logMessage = () => {
+switch ('') {
+case "error":
+console.error('Oh hi there!');
+break;
+case "warn":
+console.warn('Oh hi there!');
+break;
+default:
+console.log('Oh hi there!');
+break;
+}
+};
+if (delay > 0) {
+setTimeout(logMessage, delay);
+} else {
+logMessage();
+}
+})();
+&lt;/script>
+&lt;script>
+(() => {
+const delay = parseInt('30000', 10) || 0;
+const logMessage = () => {
+switch ('') {
+case "error":
+console.error('Hope you are enjoying the stay');
+break;
+case "warn":
+console.warn('Hope you are enjoying the stay');
+break;
+default:
+console.log('Hope you are enjoying the stay');
+break;
+}
+};
+if (delay > 0) {
+setTimeout(logMessage, delay);
+} else {
+logMessage();
+}
+})();
+&lt;/script>
+&lt;script>
+(() => {
+const delay = parseInt('35000', 10) || 0;
+const logMessage = () => {
+switch ('') {
+case "error":
+console.error('Hopefully this different kind of blog doesnt suck lol');
+break;
+case "warn":
+console.warn('Hopefully this different kind of blog doesnt suck lol');
+break;
+default:
+console.log('Hopefully this different kind of blog doesnt suck lol');
+break;
+}
+};
+if (delay > 0) {
+setTimeout(logMessage, delay);
+} else {
+logMessage();
+}
+})();
+&lt;/script>
+&lt;p>This blog is a bit different from normal. There&amp;rsquo;s no tutorial, nothing I&amp;rsquo;m showing off, just me collecting my thoughts since I started playing this game it really caught me. No other game has done that since DDLC. But why? And what can I learn from it as a gamedev?&lt;/p>
+&lt;style>
+.bg {
+background-color: #005b972f;
+color: #fff;
+padding: 20px;
+padding-left: 25px;
+padding-right: 25px;
+border-radius: 8px;
+}
+.title {
+font-size: 20px;
+margin-top: 0;
+margin-bottom: 10px;
+color: #00C2FF;
+font-weight: bold;
+}
+.title::before {
+content: "ℹ️ ";
+}
+[data-scheme="light"] .bg {
+color: #000;
+}
+[data-scheme="light"] .title {
+color: #004471;
+}
+.bg.alert {
+background-color: #ff00002f;
+color: #fff4f4;
+.title {
+color: #ff0000;
+}
+.title::before {
+content: "🚨 ";
+}
+}
+[data-scheme="light"] .bg.alert {
+background-color: #ffc7c7;
+color: #420000;
+.title {
+color: #c30000;
+}
+}
+.bg.warning {
+background-color: #ffcc002f;
+color: #fffbeb;
+.title {
+color: #ffcc00;
+}
+.title::before {
+content: "⚠️ ";
+}
+}
+[data-scheme="light"] .bg.warning {
+background-color: #f8ebb2;
+color: #312700;
+.title {
+color: #a88600;
+}
+}
+&lt;/style>
+&lt;div class="bg warning">
+&lt;p class="title">Spoiler warning!&lt;/p>
+&lt;p>If you plan to play either DDLC or MiSide I suggest doing that before reading onwards. I also have not played all of MiSide and am probably 1/6th of the way into that so I&amp;rsquo;m probably missing a lot here.&lt;/p>
+&lt;/div>
+&lt;h2 id="what-does-this-game-and-ddlc-have-in-common">What does this game and DDLC have in common
+&lt;/h2>&lt;p>Right off the bat, I can think of a few things they have in common: They both are anime-themed, but I don&amp;rsquo;t think this is a main factor but I do think the cute factor contrasts well with the horror. What really gets me is the 4th wall breaks, the stuff it does is unique. I don&amp;rsquo;t tend to care for mainstream horror, jumpscare here, jumpscare there. I way prefer psychological horror. I also love it when stuff has a meaning!&lt;/p>
+&lt;h2 id="gimmicks-and-unique-mechanics">Gimmicks and unique mechanics!
+&lt;/h2>&lt;p>Both these games do great jobs at breaking the 4th wall, but not just that: I love games with unique gimmicks. Both of these games use interesting gimmicks that make me think in different ways that a typical puzzle won&amp;rsquo;t allow for. I mean yeah Candy Crush is a puzzle but it&amp;rsquo;s predictable. You know all the rules, and for some this is great! For me (the game breaker as I&amp;rsquo;ve kinda got a reputation from people who know me) I prefer to try stuff outside of that typical box. Usually, I&amp;rsquo;m let down and it does nothing. Sometimes it does something: usually in this case it bugs out or behaves unexpectedly but I find this solution a whole lot more fun since I came up with it. I didn&amp;rsquo;t take the easy way out. It may have taken me longer but I found something all on my own! These thinking out-of-the-box puzzles make me think this way and I love it! It can be messing with the file system, to a reality where space doesn&amp;rsquo;t work the way I expect it (That&amp;rsquo;s why I love games like Superluminal). I get an outcome I can&amp;rsquo;t quickly predict. For me, games have become too predictable&amp;hellip; Maybe it&amp;rsquo;s because I&amp;rsquo;m a game dev, or maybe it&amp;rsquo;s because I like to figure stuff out but whatever reason that&amp;rsquo;s why I prefer these non-traditional puzzles over normal ones.&lt;/p>
+&lt;h2 id="the-sound">The sound
+&lt;/h2>&lt;p>Next up is the sound design: MiSide has a great sound design, and the music is also really nice. I&amp;rsquo;m listening to the OST right now as I write this. It fits the moments well and ties it all together&amp;hellip; Same with DDLC&amp;rsquo;s music. Also other than the music the little button press sounds and everything are so good! For a horror game sound design is really important and I think they nailed it and hit out of the park here in many places&amp;hellip; It&amp;rsquo;s not just fitting but also satisfying (I found myself just hovering my mouse back and forth over the menu just to hear the little hover sounds)&lt;/p>
+&lt;h2 id="the-characters">The characters
+&lt;/h2>&lt;p>Next up is the characters. Both of these are disguised as dating sims, and while that&amp;rsquo;s probably not what gets me into them I do think they do a good job at making me connect with the characters&amp;hellip; even if so they can crush my heart 3 seconds later while they try to kill me or something. And heck MiSide (as far as I&amp;rsquo;ve played) does have some really fun characters who don&amp;rsquo;t want to kill me. The stupid side minigame with Cool Mita or the hammer game&amp;hellip; they were all fun and I wanted them to continue. Not because the games were super fun though, but because I felt like I was really there with a person&amp;hellip; So how did they do that?&lt;/p>
+&lt;h3 id="personality">Personality
+&lt;/h3>&lt;p>I think they did this in a few ways all of which add personality to the character. First off I&amp;rsquo;m sure the cute character design plays a part but character design is also done around their personalities which is fun. Next up how they speak has personality. Not only does the excited Mita have her text shake more, explode, and is a lot bigger than all the others talking (This is a concept I brought up a few years ago after seeing it once or twice and I love seeing more games just using text styling and animation for emotions and personality)—the way the text moves and falls gives it personality. The sad Mita has her text slowly fall apart and slide down sadly after each sentence with little energy. Next up is the animation: It matches their emotions and personality! The cool Mita (who is really energetic) is really jump and also why we play tons of party games&amp;hellip; the games around her are built with her in mind, and she fits well into them. After all it&amp;rsquo;s her house, so it makes sense she would have this stuff. Lastly is the small stuff: The little movements and quirks we all have and the subtle teasing humor that someone close to you might use. She is not just a blank slate but has some traits like she is a little bit of an airhead, and loves music, among other things. Sharing these things with me made me connect. Making jokes in a bad situation to lighten the mood was super relatable. They feel real, and I feel for them. I want to help them, be with them, and so on. That is how you make a game I&amp;rsquo;ll remember&amp;hellip; make me get emotionally attached to it or your characters.&lt;/p>
+&lt;h4 id="text-demo">Text Demo!
+&lt;/h4>&lt;p>If you want to convey fear just saying &amp;ldquo;Uhh What was that?&amp;rdquo; might not do it. However&lt;/p>
+&lt;style>
+.color {
+color: var(--text-color, black);
+}
+&lt;/style>
+&lt;span class="color" style="--text-color: red">
+&lt;style>
+@keyframes shake {
+0%, 100% { transform: translate(0, 0); }
+25% { transform: translate(calc(var(--intensity, 2px) * -1), calc(var(--intensity, 2px) * -1)); }
+50% { transform: translate(var(--intensity, 2px), var(--intensity, 2px)); }
+75% { transform: translate(calc(var(--intensity, 1px) * -1), var(--intensity, 1px)); }
+}
+.shake span {
+display: inline-block;
+animation: shake var(--shake-speed, 0.5s) infinite;
+}
+.shake span:nth-child(odd) {
+animation-duration: calc(var(--shake-speed, 0.5s) * 0.8);
+animation-delay: calc(var(--delay, 0) * 50ms);
+}
+.shake span:nth-child(even) {
+animation-duration: calc(var(--shake-speed, 0.5s) * 1.2);
+animation-delay: calc(var(--delay, 0) * 100ms);
+}
+&lt;/style>
+&lt;div class="shake">
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 0'>
+U
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 1'>
+h
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 2'>
+h
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 3'>
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 4'>
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 5'>
+W
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 6'>
+h
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 7'>
+a
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 8'>
+t
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 9'>
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 10'>
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 11'>
+w
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 12'>
+a
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 13'>
+s
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 14'>
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 15'>
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 16'>
+t
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 17'>
+h
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 18'>
+a
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 19'>
+t
+&lt;/span>
+&lt;span style='--shake-speed: 0.3s;
+--intensity: 2px;
+--delay: 20'>
+?
+&lt;/span>
+&lt;/div>
+&lt;/span>
+&lt;p>will probably work way better. You can tell the person saying that is afraid or jittery from the text shaking and the red also further shows fear or anger.&lt;/p>
+&lt;h2 id="polish">Polish
+&lt;/h2>&lt;p>Other than that I also appreciate a good level of polish. Too often both Indie and AAA games are letdowns on the level of polish. I mean in AAA games you can&amp;rsquo;t even guarantee the whole main game works as intended, and Indie games understandably can skimp out on details due to having a small team: But both DDLC and MiSide didn&amp;rsquo;t do this! MiSide has buttery smooth animations. In the kitchen scene, you can see her flipping each tomato in the pan. They didn&amp;rsquo;t need to go that far but it makes it feel good! Same with Cappie (Cool Mita), if you nod at her she nods back which is fun, gives her personality, and a little extra secret to find. DDLC doesn&amp;rsquo;t quite have great animations but it (and MiSide) both use visual effects really well!&lt;/p>
+&lt;h3 id="the-menu">The menu
+&lt;/h3>&lt;p>I love this style of menu: it instantly reminded me of Detroit become human. The first time I saw the menu of Detroit become human I knew I wanted to make something like that that had a personality, looked nice, had easter eggs, and was playful. There&amp;rsquo;s a lot this menu does right. Again it&amp;rsquo;s a part of the polish that is usually overlooked. I mean so often even I overlook the menu when making a game and think &amp;ldquo;it has a play button, it works. Nobody cares about the menu&amp;rdquo;(or more likely I don&amp;rsquo;t think about it at all and just put something together that looks nice and works)&amp;hellip; but I do. I love the interaction with the character on the menu where if you poke them too much they brush your mouse away. I also love how their eyes follow your cursor, and how they get a little sad when you are about to quit the game. The fact I care about the characters also adds a whole new bit of personality to the menu.&lt;/p>
+&lt;h3 id="other-easter-eggs">Other easter eggs
+&lt;/h3>&lt;p>There are tons of little things to find, it&amp;rsquo;s easy to miss if you don&amp;rsquo;t look. This game will show you more if you explore. Some of it makes no sense yet like why there is a soda can with a pencil in it and a sticky note on it hidden in almost every room. Though these are rewards that are fun and might unlock some lore it also has things that can unlock more game content. If you find her glasses then you can have her put it on. There are tons of these little things that are not super important but just add that extra layer of feeling like I am not stuck on 1 path, and sometimes I&amp;rsquo;m sure these little moments can diverge the story a lot more than I&amp;rsquo;ll probably realize in the moment. They also just add fun little things for people who like the game to find, and collect.&lt;/p>
+&lt;h2 id="the-story">The story
+&lt;/h2>&lt;p>The story isn&amp;rsquo;t predictable. I don&amp;rsquo;t see right through it like in Bioshock, and I feel like my choices have meaning&amp;hellip; even if they really don&amp;rsquo;t (though the game has multiple endings which I love so I assume my choices have meaning). I&amp;rsquo;m not a fan of linear games, I see through them too fast. I try to solve the puzzles in my own way. The story in MiSide allows you to make choices, you can miss stuff, you can find secrets, and you get rewarded for exploring. I also am sitting at the edge of my seat like what happens next? When is that jumpscare coming? Am I safe? I also am not just spoonfed the story, I get bits here, bits there, and since I care about the characters and the world I want to put it together. I&amp;rsquo;m not just flat-out told the story, that&amp;rsquo;s for me to figure out.&lt;/p>
+&lt;h3 id="side-story-why-i-am-not-a-fan-of-bioshock">Side story: Why I am not a fan of BioShock
+&lt;/h3>&lt;p>I remember in BioShock I had to put out a fire and I was trying to use something I had on hand that should in theory work. It didn&amp;rsquo;t. I tried other things, It also didn&amp;rsquo;t work. There was 1 solution, and no guidance even more frustratingly so I spent like 2 hours running in circles retracing all my steps to find the right solution which was super annoying. I mean to me I could see through the story right at the start, it wasn&amp;rsquo;t particularly interesting, I never made my own choices and after a while, I didn&amp;rsquo;t care. I couldn&amp;rsquo;t do the wrong thing. I couldn&amp;rsquo;t even burn myself on the fire from the plane crash if I wanted to. Not even small stuff like this. I felt like if I wanted a story I had no say in I&amp;rsquo;d watch a movie, anime, or TV series.&lt;/p>
+&lt;h2 id="not-just-pure-horror">Not just pure horror
+&lt;/h2>&lt;p>Too many mainstream horror games go with 100% horror all the time. This one lets me be terrified 1 moment, and recollect myself in a nice calm scene in another. I like this balance. The characters also making jokes here and there to lighten it up reminds me slightly of murder drones. A game that is 100% horror all the time can have lore and other stuff but it doesn&amp;rsquo;t give you much time to connect with characters, it doesn&amp;rsquo;t let me care about the world or anything.&lt;/p>
+&lt;h2 id="some-extra-reasons">Some extra reasons
+&lt;/h2>&lt;p>Overall just everything fits, the world makes enough sense and I feel for the characters. I love the quirky nature of the puzzles&amp;hellip; I love puzzle games like this, it&amp;rsquo;s like these games were made for me. I&amp;rsquo;m also super happy since too often anime games are super low quality&amp;hellip; this one isn&amp;rsquo;t&amp;hellip; and it&amp;rsquo;s made by 2 main devs??? (afaik) woww I could gush on and on right now about this. This game is the first one in a long time to inspire me again, to make me genuinely have fun. In the past probably 10 years I can name only 2-3 games that made me feel this excited: DDLC, Celeste, and MiSide.&lt;/p>
+&lt;h2 id="some-more-personal-thoughts">Some more personal thoughts
+&lt;/h2>&lt;p>Most games try to stray away from the gimmicks: they are experimental, if the gimmick goes good it goes great! &amp;hellip;.But if it goes bad then the whole thing can be a total flop especially if its a main mechanic. That&amp;rsquo;s why I feel like most games stick to the tried and tested methods. Indie games have more freedom; They don&amp;rsquo;t have to impress investors yet or anything. This is why I love indie games! This is why I like being an indie dev!&lt;/p>
+&lt;h2 id="related-personal-projects">Related Personal projects
+&lt;/h2>&lt;p>Ever since I played DDLC I wanted to make a horror game. Actually, I came up with a good few ideas used in MiSide. I had some sort of messy story too but what always stopped me from pursuing these ideas is the fact that I thought the puzzles were too jank, might make no sense, perhaps the story or whatever was cringe, maybe the whole thing didn&amp;rsquo;t make perfect sense in this world. These 2 games have shown me that both of these things don&amp;rsquo;t matter. Your game world can have its own rules that make no sense: you just need to explain it to the player or make it self-explanatory. And the whole being cringe thing: Someone will always find it cringe, and others will find it amazing. Many people find both DDLC and MiSide cringe just for it being an anime game, and to these people judging a book by its cover without playing it&amp;hellip;. It is what it is. I have to stop being afraid to try new things or afraid it&amp;rsquo;s not perfect or I&amp;rsquo;ll never release a game. I want to try to release a story-based game, perhaps even a horror game.&lt;/p>
+&lt;h2 id="gamejam-story-and-takeaways">Gamejam story and takeaways
+&lt;/h2>&lt;p>A while ago I even did it for the cookie jam. It was a small game I wasn&amp;rsquo;t going to join but I tried my hand at story in a half-made custom game engine in like 2 days so it was pretty bad&amp;hellip; but hey it even won first place in some areas. So if I was able to get that done in 3 days while debugging a game engine I&amp;rsquo;m sure I could make a more fun story game in more time. Also since then, I think (and hope) that my storytelling abilities have gotten way better. Its going to be hard to shake the feeling that it has to be perfect. Honestly, it being a gamejam helped me a bit knowing it could never be perfect in that time. Also that gamejams are a great time to try some wacky stuff. I&amp;rsquo;m considering perhaps making a small personal jam just for me. Maybe if anyone is interested I&amp;rsquo;ll announce it and we can see what cool things we can make in say a week, 2 weeks, or whatever I decide. I feel like that way ill force myself to not scope creep so I get it done, worry less about it being perfect, and get something out so I can show others and myself that I can get stuff done and am not incapable before I burn out yet again. Though this is all stuff I will have to figure out, and it probably won&amp;rsquo;t be for a while but send me a message if that sounds fun.&lt;/p>
+&lt;h2 id="old-horror-game-plans">Old horror game plans
+&lt;/h2>&lt;p>I might continue this, but the core concept I came up with was from git version control and a corrupted AI. Not quite the same as miside but it certainly has some simularities. I think that with a different story and some work it could be its own fun thing and not a ripoff of these games. Ill have to see though, id want to make something unique if I do! Also ive got to learn how to 3d model characters if im going to even attempt 3D.&lt;/p>
+&lt;h2 id="what-im-doing-with-my-train-game-and-my-current-thoughts-on-it">What I&amp;rsquo;m doing with my train game (and my current thoughts on it.)
+&lt;/h2>&lt;p>I&amp;rsquo;m sure at least one of you reading enjoys my train game, and don&amp;rsquo;t worry it&amp;rsquo;s not over. I&amp;rsquo;m just quite busy trying to survive university. I&amp;rsquo;m not replacing that project with a horror game. I might mess around with some ideas on the side but I actually am taking away some things from this horror game for my train game, and no don&amp;rsquo;t worry it&amp;rsquo;s not about to become a trippy train horror game 4th wall-breaking puzzle game. The story, characters, and the feeling of belonging that they all bring, the feeling of helping them. I want to try to bring this all to the train game. For months I&amp;rsquo;ve been debating if the player should have a body or just be floating. From a purely building standpoint, I think floating is better. I think for building I might make you float. I also feel like from an emotional connections standpoint the fact that you have no body will make it hard to connect to others and the world around you. I had been considering this for a while because having no physical body makes you feel detached from the world. Taking some time to get from point A to point B on your train doesn&amp;rsquo;t have to be a bad thing. If you hate it: design your train better so you can get between floors easier, but stuff taking time and taking it slow will help you build a connection. I want to make the people who come on the train memorable&amp;hellip;. Or at least have some core story characters who you need to help out who you will connect with and remember.&lt;/p></description></item><item><title>Rewriting the CookCLI frontend</title><link>https://blog.leahdevs.xyz/p/rewriting-the-cookcli-frontend/</link><pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate><guid>https://blog.leahdevs.xyz/p/rewriting-the-cookcli-frontend/</guid><description>&lt;img src="https://blog.leahdevs.xyz/p/rewriting-the-cookcli-frontend/cover.webp" alt="Featured image of post Rewriting the CookCLI frontend" />&lt;h2 id="what-is-cookcli">What is CookCLI?
+&lt;/h2>&lt;p>&lt;a class="link" href="https://github.com/cooklang/cookcli" target="_blank" rel="noopener"
+>CookCLI&lt;/a> is a command line utility for working with &lt;a class="link" href="https://cooklang.org/" target="_blank" rel="noopener"
+>cooklang&lt;/a>. It provides a few subcommands such as showing recipes, shopping lists, and more. One of its big functions is the server function allowing you to host a website that contains all your recipes. I made &lt;a class="link" href="https://github.com/ChaoticLeah/Forkly" target="_blank" rel="noopener"
+>Forkly&lt;/a> a fork of CookCLI that is focused on the front-end experience.&lt;/p>
+&lt;h2 id="why-rewrite-it">Why Rewrite it?
+&lt;/h2>&lt;p>The old frontend is fully functional but lacked some nice extras I wanted to add. Originally I was just going to add these features on top of what was already there, but after working on adding stuff I decided to rewrite it since it was using js (not ts), and some old web stuff like rollup, svelte 4 (I also wanted an excuse to learn svelte 5). I also wanted to make the best cooking app/site that you can self-host with all the batteries included ideally including any digital tool you might need in the cooking process.&lt;/p>
+&lt;h3 id="what-changed-about-the-tech-stack-and-why">What changed about the tech stack, and why?
+&lt;/h3>&lt;p>Originally it was using Svelte 4, rollup, js, and bootstrap CSS (which tricked me into thinking it was tailwind at the start).&lt;/p>
+&lt;p>I changed it to Vite, Svelte 5, TS, and Tailwind. But why? Well, I wanted to learn svelte 5, learn how to link it with a rust backend, and other things, but also it would be far easier for me to write it in stuff I knew and was up to date. Also, I&amp;rsquo;ve learned it&amp;rsquo;s far better to get your rewrites in early before you put a lot of work into it and then find you need to redo everything.&lt;/p>
+&lt;h3 id="what-features-did-i-add">What features did I add?
+&lt;/h3>&lt;p>The old web UI just showed you a list of recipes, and the recipe, the steps, ingredients, and cookware needed. It also had a shopping list. In the rewrite, we also have all these features. I have also added a lot of extra useful cooking tools.&lt;/p>
+&lt;p>So here&amp;rsquo;s what is new to this fork:&lt;/p>
+&lt;ul>
+&lt;li>A built-in timer.
+&lt;ul>
+&lt;li>When a recipe specifies a time such as &amp;ldquo;bake for 2 hours&amp;rdquo;, you can click on the &amp;ldquo;2 hours&amp;rdquo;, and a timer will pop up already with 2 hours filled in.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Built-in measurement conversion
+&lt;ul>
+&lt;li>When a measurement is mentioned in a recipe such as &amp;ldquo;1 cup&amp;rdquo;, you can click on it and convert it to any unit you want.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>The ability to mark off ingredients on your shopping list&lt;/li>
+&lt;li>Some smaller quality-of-life features
+&lt;ul>
+&lt;li>A keep the screen on setting so your phone wont go to sleep when the recipe is up (only works on HTTPS sites since that&amp;rsquo;s the limitation of the web API)&lt;/li>
+&lt;li>Some more settings to customize if you would like your conversions to be rounded off for you&lt;/li>
+&lt;li>Recipes now show extra stats to you like how many people it serves and so on&lt;/li>
+&lt;li>It&amp;rsquo;s a PWA! You can download this web app on ur phone&lt;/li>
+&lt;li>It has a new modern look (maybe it&amp;rsquo;s a stretch to call it a feature but it&amp;rsquo;s my blog sooooo)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="what-i-want-to-add">What I want to add:
+&lt;/h4>&lt;ul>
+&lt;li>The ability to sort your shopping list by category (so all the meats go together, all the fruits go together, and so on). This would be useful when shopping to save time. This is already possible using the other commands, but not in the frontend&lt;/li>
+&lt;li>A tool to scale recipes to any number of people (this will be experimental since it can scale the amounts of stuff, but not cook times and stuff. Due to this I&amp;rsquo;m unsure of if this will be added)&lt;/li>
+&lt;li>Maybe the possibility to add recipes from the front end&amp;hellip; though at this point thats only a slight maybe because that would require an account system, and its a whole lot of headache for 1 feature. For now, you could pair this up with something like &lt;a class="link" href="https://github.com/filebrowser/filebrowser" target="_blank" rel="noopener"
+>File Browser&lt;/a> to be able to add recipes from the web.&lt;/li>
+&lt;li>Some sort of docker container to easily install this. This will probably only be for the web command.&lt;/li>
+&lt;/ul>
+&lt;h5 id="i-want-to-help-can-i">I want to help! Can I?
+&lt;/h5>&lt;p>Yes, you can help. The repo is down below.&lt;/p>
+&lt;h2 id="so-how-do-i-use-it-and-should-i-install-it">So how do I use it, and should I install it?
+&lt;/h2>&lt;p>CookCLI is already a good tool if you want just the basics, if you want all the extras then this is probably the one for you though.&lt;/p>
+&lt;h3 id="build-from-source">Build from source
+&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>Go to the &lt;a class="link" href="https://github.com/ChaoticLeah/Forkly" target="_blank" rel="noopener"
+>repo&lt;/a> and clone it&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Go into the UI folder and run &lt;code>bun install&lt;/code> in there. This will install all the frontend dependencies&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In that same directory run &lt;code>bun --bun run build&lt;/code>. This will build the front end. Wait for that to complete&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Go back into the main directory and run &lt;code>cargo run -- --server&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The server should now be hosted. The console should print a URL to go to&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>it comes with many starter recipes in the &lt;code>seed/&lt;/code> dir. You can add recipes and folders in the same dir as the project. If you want to put the recipes elsewhere then in &lt;code>cargo run&lt;/code> you will need to specify a directory.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="download-a-github-release">Download a GitHub release
+&lt;/h3>&lt;p>Coming soon&amp;hellip; Hopefully. Idk I need to figure out GitHub workflows. The forked workflows file is a few hundred lines of confusion for me.&lt;/p>
+&lt;h3 id="docker-install">Docker install
+&lt;/h3>&lt;p>Coming soon. Probably will be only for the server part though.&lt;/p></description></item><item><title>Releasing a KISS view counter</title><link>https://blog.leahdevs.xyz/p/simple-view-counter/</link><pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate><guid>https://blog.leahdevs.xyz/p/simple-view-counter/</guid><description>&lt;img src="https://blog.leahdevs.xyz/p/simple-view-counter/image.png" alt="Featured image of post Releasing a KISS view counter" />&lt;h2 id="what-is-it">What is it?
+&lt;/h2>&lt;p>Simple view counter is a small project I made to learn Rust, Docker, and Nginx some more. I have published it so anyone can use it for their blogs, websites, or whatever. It&amp;rsquo;s fully compatible and made with static sites like this blog in mind. It&amp;rsquo;s meant to be a really lightweight, simple view counter.&lt;/p>
+&lt;h3 id="a-bit-more-detail">A bit more detail
+&lt;/h3>&lt;p>It is meant to count views not just on 1 page but across different sub-pages. Like this blog, I have various blog posts so I want separate counters for each post. It will count 1 view per person that sees the blog per 12 hours (configurable. Also on restart of the process the cooldown resets, but this should only be done to edit the config or update it)&lt;/p>
+&lt;h2 id="can-i-use-it">Can I use it?
+&lt;/h2>&lt;style>
+.bg {
+background-color: #005b972f;
+color: #fff;
+padding: 20px;
+padding-left: 25px;
+padding-right: 25px;
+border-radius: 8px;
+}
+.title {
+font-size: 20px;
+margin-top: 0;
+margin-bottom: 10px;
+color: #00C2FF;
+font-weight: bold;
+}
+.title::before {
+content: "ℹ️ ";
+}
+[data-scheme="light"] .bg {
+color: #000;
+}
+[data-scheme="light"] .title {
+color: #004471;
+}
+.bg.alert {
+background-color: #ff00002f;
+color: #fff4f4;
+.title {
+color: #ff0000;
+}
+.title::before {
+content: "🚨 ";
+}
+}
+[data-scheme="light"] .bg.alert {
+background-color: #ffc7c7;
+color: #420000;
+.title {
+color: #c30000;
+}
+}
+.bg.warning {
+background-color: #ffcc002f;
+color: #fffbeb;
+.title {
+color: #ffcc00;
+}
+.title::before {
+content: "⚠️ ";
+}
+}
+[data-scheme="light"] .bg.warning {
+background-color: #f8ebb2;
+color: #312700;
+.title {
+color: #a88600;
+}
+}
+&lt;/style>
+&lt;div class="bg warning">
+&lt;p class="title">Something to note&lt;/p>
+&lt;p>Make sure you configure your CORS to try to prevent people who might spam the API which will artificially increase the view number. The chance of this is probably very slim but I thought it was noteworthy. Even if they do try to spam it at worst they can add a view for each page per 12 hours (on the default config)&lt;/p>
+&lt;p>Also, make sure to set your allowed_keys so that if people try to send random requests it won&amp;rsquo;t work on anything but the allowed ones.&lt;/p>
+&lt;p>It&amp;rsquo;s not possible to fully make it impossible to add fake views but doing this will make it a lot harder and not worth it, and even at worst protects you way better.&lt;/p>
+&lt;/div>
+&lt;p>Yes! Though as of writing this article it&amp;rsquo;s a bit early to say it&amp;rsquo;s perfect, but it&amp;rsquo;s already in use on this blog. This blog is kind of my test run of it in production. There are some fixes and changes I&amp;rsquo;d like to add but it should be good enough for small static sites.&lt;/p>
+&lt;h3 id="how-to-install-it">How to install it
+&lt;/h3>&lt;p>It&amp;rsquo;s recommended to run it inside of docker. There is a premade &lt;a class="link" href="https://github.com/ChaoticLeah/simple-view-counter/blob/master/docker-compose.yml" target="_blank" rel="noopener"
+>docker-compose.yaml&lt;/a> file in the repo, but you can also build it from the source and run it. Instructions for both these things can be found in the readme. After installing it make sure you configure the config.yaml before running it.&lt;/p>
+&lt;h3 id="i-have-it-installed-how-do-i-use-the-api">I have it installed, How do I use the API?
+&lt;/h3>&lt;p>Since this is meant to count views across different sub-pages you are intended to have a unique ID or name for them(in this case I&amp;rsquo;m using the blog URL). You can encode the URL for this. So if I want to count a view on the key for the test I would send a &lt;strong>post&lt;/strong> request to &lt;code>/increment/test&lt;/code>. That&amp;rsquo;s it; there is no fancy body or headers. It will return a 200 if a view was added, and a 429 (Too Many Requests) if you send another request for the same key in the next 12 hours (assuming that you left it at the default cooldown of 12 hours in the config). It will also always return a JSON that looks like this:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">count&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">12&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>12 in this case assumes that there are 12 views on the test key. If you want to view the count without incrementing it you can send a &lt;strong>get&lt;/strong> request to &lt;code>/test&lt;/code>. This will return the same JSON as above.&lt;/p>
+&lt;h2 id="can-i-contribute">Can I contribute?
+&lt;/h2>&lt;p>Yes, you can contribute. Feel free to make changes and submit a PR. This is just meant to be an API, and while we can add more features the number one goal is to keep it really lightweight and small so keep that in mind.&lt;/p></description></item><item><title>Procedural world generation in roblox</title><link>https://blog.leahdevs.xyz/p/world-procgen-in-roblox/</link><pubDate>Mon, 11 Nov 2024 21:02:00 +0000</pubDate><guid>https://blog.leahdevs.xyz/p/world-procgen-in-roblox/</guid><description>&lt;img src="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/DDNight.png" alt="Featured image of post Procedural world generation in roblox" />&lt;h2 id="context">Context
+&lt;/h2>&lt;p>A while ago I was making a Roblox game that would generate an infinite sandbox world that you can build, destroy, and explore. I originally wanted to add survival and crafting and stuff like that but as of now none of these things are in the game.&lt;/p>
+&lt;h3 id="will-i-continue-the-project">Will I continue the project?
+&lt;/h3>&lt;p>I stopped working on this project due to Roblox&amp;rsquo;s reputation for destroying games. I did want this to be a bigger thing, but mainly I wanted to see how far I could push Roblox.&lt;/p>
+&lt;p>It&amp;rsquo;s possible I work on it here or there but I probably won&amp;rsquo;t be fully returning to it. I&amp;rsquo;ve got other projects.&lt;/p>
+&lt;h2 id="basic-world-generation">Basic world generation
+&lt;/h2>&lt;p>Basic world generation can be done with Perlin noise to generate a height map. This is quite simple but looks very similar everywhere you look.&lt;/p>
+&lt;p>&lt;img src="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/image.png"
+width="1442"
+height="816"
+srcset="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/image_hu10924864584902538882.png 480w, https://blog.leahdevs.xyz/p/world-procgen-in-roblox/image_hu4027704454587372849.png 1024w"
+loading="lazy"
+alt="Basic pretty flat terrain that isnt very intresting"
+class="gallery-image"
+data-flex-grow="176"
+data-flex-basis="424px"
+>&lt;/p>
+&lt;p>&lt;img src="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/index-2889073799.png"
+width="302"
+height="201"
+srcset="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/index-2889073799_hu15971666284241967076.png 480w, https://blog.leahdevs.xyz/p/world-procgen-in-roblox/index-2889073799_hu526191693349605353.png 1024w"
+loading="lazy"
+alt="A chart comparing different amounts of octaves in perlin noise. More octives tends to lead to more detailed and intresting terrain"
+class="gallery-image"
+data-flex-grow="150"
+data-flex-basis="360px"
+>&lt;/p>
+&lt;p>To fix this we need to up the octaves. It&amp;rsquo;s more work for the server but provides better results. Roblox does not provide a function to generate Perlin noise with octaves so we have to make our own. Still, at a distance, it looks very much the same. There are no biomes, no big flat lands, and no huge mountains. Cliffs are impossible like this too.&lt;/p>
+&lt;h3 id="leveling-up-our-world-generation">Leveling up our world generation
+&lt;/h3>&lt;p>So our world looks the same from a distance and can get boring quickly after wandering around for a while. What can we do about this?&lt;/p>
+&lt;h4 id="splines">Splines
+&lt;/h4>&lt;p>World generation can be made more interesting with splines. If you want a more in-depth explanation of this I learned from &lt;a class="link" href="https://www.youtube.com/watch?v=ob3VwY4JyzE" target="_blank" rel="noopener"
+>this talk&lt;/a> explaining how Minecraft does it. Basically, we take our basic Perlin noise output and run it through a spline. This can transform many things including creating crazy mountains, flat valleys, and more. Alone this can give us crazy terrain, but still, at a distance it&amp;rsquo;s very much the same.&lt;/p>
+&lt;p>&lt;img src="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/image-1.png"
+width="1460"
+height="825"
+srcset="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/image-1_hu7103107062572860843.png 480w, https://blog.leahdevs.xyz/p/world-procgen-in-roblox/image-1_hu15779003099472171711.png 1024w"
+loading="lazy"
+alt="Splines used to create super exaggerated mountains"
+class="gallery-image"
+data-flex-grow="176"
+data-flex-basis="424px"
+>&lt;/p>
+&lt;h5 id="combining-splines">Combining splines
+&lt;/h5>&lt;p>In the talk, they talked about using 3 splines to simulate erosion and stuff like that. This can be done by generating 3 different Perlin noise values, running them through different splines, and then averaging them using weights that will allow us to control how much we want erosion to affect the final result, as well as the other 2 values.&lt;/p>
+&lt;h2 id="biomes-and-materials">Biomes and materials
+&lt;/h2>&lt;style>
+.bg {
+background-color: #005b972f;
+color: #fff;
+padding: 20px;
+padding-left: 25px;
+padding-right: 25px;
+border-radius: 8px;
+}
+.title {
+font-size: 20px;
+margin-top: 0;
+margin-bottom: 10px;
+color: #00C2FF;
+font-weight: bold;
+}
+.title::before {
+content: "ℹ️ ";
+}
+[data-scheme="light"] .bg {
+color: #000;
+}
+[data-scheme="light"] .title {
+color: #004471;
+}
+.bg.alert {
+background-color: #ff00002f;
+color: #fff4f4;
+.title {
+color: #ff0000;
+}
+.title::before {
+content: "🚨 ";
+}
+}
+[data-scheme="light"] .bg.alert {
+background-color: #ffc7c7;
+color: #420000;
+.title {
+color: #c30000;
+}
+}
+.bg.warning {
+background-color: #ffcc002f;
+color: #fffbeb;
+.title {
+color: #ffcc00;
+}
+.title::before {
+content: "⚠️ ";
+}
+}
+[data-scheme="light"] .bg.warning {
+background-color: #f8ebb2;
+color: #312700;
+.title {
+color: #a88600;
+}
+}
+&lt;/style>
+&lt;div class="bg ">
+&lt;p class="title">Note&lt;/p>
+&lt;p>Biomes in this system are not like actual biomes in the sense that each &amp;ldquo;biome&amp;rdquo; can only have 1 ground material. This is fine though since we can split what would be 1 biome into multiple sub-biomes which basically do the same thing.&lt;/p>
+&lt;/div>
+&lt;p>Ok so now we have interesting and varied terrain height generated that isn&amp;rsquo;t too repetitive unless we really zoom far out, but we don&amp;rsquo;t know what material to place where. For this, I made a &amp;ldquo;biome system&amp;rdquo; which allows me to specify each biomes elevation, slope, heat, rareness, moisture, material, and &amp;ldquo;spawnables&amp;rdquo;. We will get back to spawnables later but for now, we have a list of biomes (aka materials) with parameters. Note: Parameters on biomes can be set to nil meaning &amp;ldquo;it doesn&amp;rsquo;t matter what this is&amp;rdquo;. We already have the height from the previous calculation so we can find the best fit for that but we need to do the rest now. With a few more perlin noisemaps we can generate the heat and moisture values. I chose heat and moisture as the primary factors for generation because, based on my research, these two variables play the biggest role in distinguishing different biomes.&lt;/p>
+&lt;p>&lt;img src="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/th-412295043.jpg"
+width="474"
+height="461"
+srcset="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/th-412295043_hu15732526806120118560.jpg 480w, https://blog.leahdevs.xyz/p/world-procgen-in-roblox/th-412295043_hu10703100037112450820.jpg 1024w"
+loading="lazy"
+alt="A 2D chart with Annual precipitation on the y axis, and Average annual temperature on the x axis. On the graph are many biomes spread over it"
+class="gallery-image"
+data-flex-grow="102"
+data-flex-basis="246px"
+>&lt;/p>
+&lt;p>So now we know the height, heat, and moisture, all we need now is to find the slope. Using simple math we can calculate the neighboring heights quickly and find the slope. With that, we can run through the biomes and calculate which biome fits the current chunk best, and then that material will be used in world generation.&lt;/p>
+&lt;style>
+.bg {
+background-color: #005b972f;
+color: #fff;
+padding: 20px;
+padding-left: 25px;
+padding-right: 25px;
+border-radius: 8px;
+}
+.title {
+font-size: 20px;
+margin-top: 0;
+margin-bottom: 10px;
+color: #00C2FF;
+font-weight: bold;
+}
+.title::before {
+content: "ℹ️ ";
+}
+[data-scheme="light"] .bg {
+color: #000;
+}
+[data-scheme="light"] .title {
+color: #004471;
+}
+.bg.alert {
+background-color: #ff00002f;
+color: #fff4f4;
+.title {
+color: #ff0000;
+}
+.title::before {
+content: "🚨 ";
+}
+}
+[data-scheme="light"] .bg.alert {
+background-color: #ffc7c7;
+color: #420000;
+.title {
+color: #c30000;
+}
+}
+.bg.warning {
+background-color: #ffcc002f;
+color: #fffbeb;
+.title {
+color: #ffcc00;
+}
+.title::before {
+content: "⚠️ ";
+}
+}
+[data-scheme="light"] .bg.warning {
+background-color: #f8ebb2;
+color: #312700;
+.title {
+color: #a88600;
+}
+}
+&lt;/style>
+&lt;div class="bg ">
+&lt;p class="title">Note&lt;/p>
+&lt;p>Chunks in this game are way smaller than Minecraft chunks so you do not notice jagged edges from materials blending. If the chunks were bigger that could be an issue.&lt;/p>
+&lt;/div>
+&lt;h3 id="an-example">An example
+&lt;/h3>&lt;p>Mountains might be my favorite example of showing off all these systems. I researched mountains through many pictures to make my terrain system pretty accurate and generate pretty mountains. Mountains and slopes are made up of a few biomes:&lt;/p>
+&lt;ul>
+&lt;li>The grasslands
+&lt;ul>
+&lt;li>This is mainly at the bottom of mountains and is just grassy&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>The rocky grasslands
+&lt;ul>
+&lt;li>This is when the grasslands slopes up rapidly causing it to make a more rocky wall&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Mountains
+&lt;ul>
+&lt;li>This is just rock and occurs a bit up in the air when the slope is high&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Volcano Mountains
+&lt;ul>
+&lt;li>This occurs when its somewhat high up when the heat is maxed out. This just causes basalt to be placed&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Volcano Mountains Lava
+&lt;ul>
+&lt;li>This occurs at the peaks when the heat is maxed out. This just causes lava to be placed&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Snowy Mountains
+&lt;ul>
+&lt;li>Opposite of the Volcano Mountains this puts snow on the peaks when it&amp;rsquo;s really cold&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Icey Mountains
+&lt;ul>
+&lt;li>If it&amp;rsquo;s even colder, high up, and somewhat flat ice will spawn&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>All of this combined makes up the mountains and hills in this game, but in the code are counted as many biomes.&lt;/p>
+&lt;p>&lt;img src="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/DDNight.png"
+width="1905"
+height="893"
+srcset="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/DDNight_hu7605427504055954625.png 480w, https://blog.leahdevs.xyz/p/world-procgen-in-roblox/DDNight_hu5367474034263228912.png 1024w"
+loading="lazy"
+alt="A hill showing off the rocky terrain mixed with the grass"
+class="gallery-image"
+data-flex-grow="213"
+data-flex-basis="511px"
+>&lt;/p>
+&lt;p>&lt;img src="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/DDStoneBiome.png"
+width="1919"
+height="878"
+srcset="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/DDStoneBiome_hu17486756968654501411.png 480w, https://blog.leahdevs.xyz/p/world-procgen-in-roblox/DDStoneBiome_hu8884766993216659785.png 1024w"
+loading="lazy"
+alt="All the mountain types shown off in the picture. There is a volcano mountain to the right, a snow mountain in the foreground, and in the middle is a rocky hill"
+class="gallery-image"
+data-flex-grow="218"
+data-flex-basis="524px"
+>&lt;/p>
+&lt;h3 id="what-about-the-rest-of-the-environment">What about the rest of the environment?
+&lt;/h3>&lt;p>Trees and stuff are under the &amp;ldquo;spawnables&amp;rdquo; thing that I said we would get into later. Each spawnable has a rareness, a y-offset, and a model (which also includes any scripts needed for this spawnable) Then it just places them randomly in position and rotation while making sure the models down is facing the slope of the terrain so everything doesn&amp;rsquo;t feel too straight and repetitive. This allows me to add treasure chests, trees, abandoned houses, any nature stuff, and much more.&lt;/p>
+&lt;p>&lt;img src="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/image-2.png"
+width="2560"
+height="1245"
+srcset="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/image-2_hu14153320974701848974.png 480w, https://blog.leahdevs.xyz/p/world-procgen-in-roblox/image-2_hu10858787416866311607.png 1024w"
+loading="lazy"
+alt="The beach with some palmtrees on the shore"
+class="gallery-image"
+data-flex-grow="205"
+data-flex-basis="493px"
+>&lt;/p>
+&lt;p>&lt;img src="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/BubblePlantRoblox.gif"
+width="484"
+height="492"
+srcset="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/BubblePlantRoblox_hu3098582354774714784.gif 480w, https://blog.leahdevs.xyz/p/world-procgen-in-roblox/BubblePlantRoblox_hu2405440916919901780.gif 1024w"
+loading="lazy"
+alt="A more complicated plant creature that has an animation and opens and closes releasing bubbles under water"
+class="gallery-image"
+data-flex-grow="98"
+data-flex-basis="236px"
+>&lt;/p>
+&lt;h2 id="caves">Caves
+&lt;/h2>&lt;p>Ok, this Roblox server is already struggling to keep up but let&amp;rsquo;s add caves into the mix because caves are cool! For this we will run some Perlin worms through the world that delete any terrain it comes in contact with (excluding water, if it comes in contact with water it stops). Doing this after it&amp;rsquo;s all generated and when the server has time has the small downside of the player possibly seeing a cave appear but this doesn&amp;rsquo;t usually happen, and for performance reasons, it would be hard to be done all at terrain generation time.&lt;/p>
+&lt;p>&lt;img src="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/DDCaves.png"
+width="1245"
+height="548"
+srcset="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/DDCaves_hu3486797094417129638.png 480w, https://blog.leahdevs.xyz/p/world-procgen-in-roblox/DDCaves_hu1317303527929045443.png 1024w"
+loading="lazy"
+alt="An X-ray of the world showing all the caves"
+class="gallery-image"
+data-flex-grow="227"
+data-flex-basis="545px"
+>&lt;/p>
+&lt;h2 id="speeding-things-up">Speeding things up
+&lt;/h2>&lt;p>Right now there are many noise maps being calculated, splined, biomes are being sorted&amp;hellip; a lot is going on for just a single chunk so how do we speed it up?&lt;/p>
+&lt;p>&lt;img src="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/DDDebugging.png"
+width="1009"
+height="773"
+srcset="https://blog.leahdevs.xyz/p/world-procgen-in-roblox/DDDebugging_hu9834586230349103915.png 480w, https://blog.leahdevs.xyz/p/world-procgen-in-roblox/DDDebugging_hu896962038593638288.png 1024w"
+loading="lazy"
+alt="The roblox debugger showing the terrain generation script taking a long time"
+class="gallery-image"
+data-flex-grow="130"
+data-flex-basis="313px"
+>&lt;/p>
+&lt;h3 id="actors">Actors
+&lt;/h3>&lt;p>Around the time when I had this all implemented Roblox added some sort of multithreading. This would be great if I could figure it out because the server is already struggling to keep up. It was quite confusing, but eventually, I threw world generation on another thread using Roblox&amp;rsquo;s &lt;a class="link" href="https://create.roblox.com/docs/reference/engine/classes/Actor" target="_blank" rel="noopener"
+>Actor&lt;/a> system. Basically, it would generate chunks, and then send a message to the main thread to actually place the terrain since Actors cannot do this themselves due to thread safety and all that. I&amp;rsquo;m sure it helped but not as much as I hoped. I would love to split terrain generation into multiple threads but I still don&amp;rsquo;t properly understand Actors, and doing this seems to require a lot of code duplication which I don&amp;rsquo;t love.&lt;/p>
+&lt;h3 id="lazy-for-loops">&amp;ldquo;Lazy for loops&amp;rdquo;
+&lt;/h3>&lt;p>This is a thing I kind of invented (I&amp;rsquo;m sure someone else has come up with this concept before too) but before this, it would loop and generate all the needed chunks around the player using a for loop in 1 &amp;ldquo;server tick&amp;rdquo;. If it had many chunks to make the whole server could slow down, and if it got bad the script could crash. My solution to this was what I call lazy for loops. The idea is you specify a maximum amount of time you want to let them do their looping, and if it goes over that it stops looping, saves whatever index it was at, and continues its job on the next cycle where it left off ensuring that it will never take too long and freeze everything.&lt;/p>
+&lt;h3 id="fog">Fog
+&lt;/h3>&lt;p>These Roblox servers im using can only do so much with such limited specs so I have to hide the edge of the world with fog and a bit of depth of field blur.&lt;/p>
+&lt;h2 id="chunk-unloading">Chunk unloading
+&lt;/h2>&lt;p>Chunks that have not been modified by the player will be unloaded if the server has some free time (when no players are near the chunk in question). If the server is overwhelmed with other stuff it will wait since unloading is also quite a lot of work for the server with deleting all the spawnables, and clearing all of the terrain in the chunk.&lt;/p>
+&lt;h2 id="last-few-things">Last few things
+&lt;/h2>&lt;p>I have not mentioned it yet but this game has an ocean. This is easy since we just place a bunch of water and then the terrain generator overrides the bits of water with land if needed. Anything under the sea level will now have water in it.&lt;/p>
+&lt;p>If you want to test this game there are 2 versions. &lt;a class="link" href="https://www.roblox.com/games/10101337094/Procedural-Game-Test" target="_blank" rel="noopener"
+>Version 1&lt;/a> has building, and some things which version 2 doesnt have, and &lt;a class="link" href="https://www.roblox.com/games/12519962736/Desolate-Dominion" target="_blank" rel="noopener"
+>Version 2&lt;/a> has many changes, fixes, and other features. Version 2 is a full rewrite of the game.&lt;/p>
+&lt;p>If you thought this article was intresting I might be able to make one on the anticheat in this game so let me know.&lt;/p></description></item><item><title>Basic Sidescroller pathfinding in godot</title><link>https://blog.leahdevs.xyz/p/basic-sidescroller-pathfinding-in-godot/</link><pubDate>Sun, 10 Nov 2024 20:48:58 +0000</pubDate><guid>https://blog.leahdevs.xyz/p/basic-sidescroller-pathfinding-in-godot/</guid><description>&lt;img src="https://blog.leahdevs.xyz/p/basic-sidescroller-pathfinding-in-godot/cover.webp" alt="Featured image of post Basic Sidescroller pathfinding in godot" />&lt;h2 id="a-bit-of-backstory-on-the-project">A bit of backstory on the project
+&lt;/h2>&lt;p>I am making a game where you build up a hotel on a train. You get customers at each stop and they will use the things you place down. Each customer will get a room that only they (or their party) can go into. You can also place stuff in their rooms.&lt;/p>
+&lt;h2 id="the-quick-answer">The quick answer
+&lt;/h2>&lt;p>You might be wondering how pathfinding works in this game. I had to write a custom pathfinding solution since Godot does not support side-view pathfinding. The solution is actually quite simple. There is a pathfinding network made up of a bunch of connected nodes. Each NPC can navigate between nodes using the &lt;a class="link" href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm" target="_blank" rel="noopener"
+>Dijkstra algorithm&lt;/a>&lt;/p>
+&lt;h2 id="so-how-do-i-have-public-and-private-rooms">So how do I have public and private rooms?
+&lt;/h2>&lt;p>Nodes (the points that can be pathfinded to) have a property telling the game if it&amp;rsquo;s a public or a private node. If it&amp;rsquo;s private they will also have an allow list that saves all the allowed NPCs that can use it. If an NPC tries to pathfind to (or through) a private node that doesnt have it whitelisted then the pathfinder will fail. In this case the inside door node is whitelisted so people can still walk past the room, but only specific NPCS can come in the room. This is enough to make sure everyone else stays out and is flexible enough for me to allow for inviting friends over or whatever if such a feature is needed in the future.&lt;/p>
+&lt;p>&lt;img src="https://blog.leahdevs.xyz/p/basic-sidescroller-pathfinding-in-godot/image.png"
+width="1090"
+height="263"
+srcset="https://blog.leahdevs.xyz/p/basic-sidescroller-pathfinding-in-godot/image_hu471465604582265302.png 480w, https://blog.leahdevs.xyz/p/basic-sidescroller-pathfinding-in-godot/image_hu10567292206402423816.png 1024w"
+loading="lazy"
+alt="Some connected nodes visualised"
+class="gallery-image"
+data-flex-grow="414"
+data-flex-basis="994px"
+>&lt;/p>
+&lt;h2 id="some-more-detail">Some more detail
+&lt;/h2>&lt;p>Pathfinding typically begins in one of two ways: either an NPC is wandering, or it is attempting to complete a task. When wandering, the NPC simply chooses a random point and attempts to pathfind to it.&lt;/p>
+&lt;style>
+.bg {
+background-color: #005b972f;
+color: #fff;
+padding: 20px;
+padding-left: 25px;
+padding-right: 25px;
+border-radius: 8px;
+}
+.title {
+font-size: 20px;
+margin-top: 0;
+margin-bottom: 10px;
+color: #00C2FF;
+font-weight: bold;
+}
+.title::before {
+content: "ℹ️ ";
+}
+[data-scheme="light"] .bg {
+color: #000;
+}
+[data-scheme="light"] .title {
+color: #004471;
+}
+.bg.alert {
+background-color: #ff00002f;
+color: #fff4f4;
+.title {
+color: #ff0000;
+}
+.title::before {
+content: "🚨 ";
+}
+}
+[data-scheme="light"] .bg.alert {
+background-color: #ffc7c7;
+color: #420000;
+.title {
+color: #c30000;
+}
+}
+.bg.warning {
+background-color: #ffcc002f;
+color: #fffbeb;
+.title {
+color: #ffcc00;
+}
+.title::before {
+content: "⚠️ ";
+}
+}
+[data-scheme="light"] .bg.warning {
+background-color: #f8ebb2;
+color: #312700;
+.title {
+color: #a88600;
+}
+}
+&lt;/style>
+&lt;div class="bg ">
+&lt;p class="title">Note About Wandering&lt;/p>
+&lt;p>In the future I plan to rework this so that wandering uses a much simpler pathfinding solution because right now if the random point that is picked is in a room they can’t access; it will compute the path, fail, pick a new point, and keep doing this until it finds an ok point to go to. In the future, I plan to try adding some sort of noise to control how they move without any real pathfinding which should be way less expensive to compute.&lt;/p>
+&lt;/div>
+&lt;p>When an NPC starts a task it probably needs to go somewhere. For example, if an NPC needs the bathroom it will search for the closest bathrooms and then rank them by how busy they are to try to avoid long lines. This encourages players to place more bathrooms to even out long lines. After a bathroom (or other buildable) is picked it will use the &lt;a class="link" href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm" target="_blank" rel="noopener"
+>Dijkstra algorithm&lt;/a> to precompute the path it needs to take. Then it will slowly make its way there, and once there, its pathfinding will be done and the buildable will likely take over control of the NPC. In the case of the bathroom, the buildable will put them in line. If there is no line then they turn invisible (to the player it looks like they went inside of the bathroom) and then the bathroom does the rest of its job.&lt;/p>
+&lt;h2 id="how-are-new-nodes-linked">How are new nodes linked?
+&lt;/h2>&lt;p>When building new buildables its nodes are usually linked automatically. Each buildable has a pathfinding node on it so it will try to automatically register itself into the network and then find which 2 nodes it&amp;rsquo;s between. After finding these 2 nodes, it will cut them apart so they are no longer linked. After that, it will link them to itself and vice versa (it’s a 2-way link. Yes this pathfinding system supports 1-way pathfinding but the auto registering doesn’t support it). For most buildables that’s the end of it, but there is 1 thing that breaks this: Stairs. Unlike every other buildable, it is not a buildable that will be used by the task system, and has 2 pathfinding nodes (A top and bottom node).&lt;/p>
+&lt;p>&lt;img src="https://blog.leahdevs.xyz/p/basic-sidescroller-pathfinding-in-godot/Stairs-Pathfinding-On.png"
+width="303"
+height="269"
+srcset="https://blog.leahdevs.xyz/p/basic-sidescroller-pathfinding-in-godot/Stairs-Pathfinding-On_hu13924547980209720352.png 480w, https://blog.leahdevs.xyz/p/basic-sidescroller-pathfinding-in-godot/Stairs-Pathfinding-On_hu9491914141971229053.png 1024w"
+loading="lazy"
+alt="Some stairs with their pathfinding nodes and connections visualised. The numbers represent the number of connections of each node."
+class="gallery-image"
+data-flex-grow="112"
+data-flex-basis="270px"
+>&lt;/p>
+&lt;p>This is almost the same case as previously but I had to manually register the nodes since the auto register would unlink the 2. It’s also one of the few cases where 3 links will occur(which isnt supported by the auto-linking). It’s also the only case in my game where pathfinding goes up or down vertically so it’s marked a darker blue to signify that. For now, this doesn’t do much but could be used to trigger a custom walk animation, sound, or something else. On the topic of special nodes there is also a teleport node (which is used to link the outside of doors to the inside of doors which just teleports the npc from 1 node to the other since really the inside of the room is far under the rest of the train)&lt;/p>
+&lt;h3 id="edge-cases">Edge cases
+&lt;/h3>&lt;p>What happens when a node is deleted that an NPC is going to pathfind to? Its pathfinding will fail. This used to crash the game but now it shouldn&amp;rsquo;t. If this happens it will fail the task and start over trying to find a new path there. If it was between points it would first navigate to the nearest point and then continue to pathfind.&lt;/p>
+&lt;h2 id="debugging">Debugging
+&lt;/h2>&lt;p>As you can see in the screenshot above, I have built some visual tools to help figure out how nodes are linked. This helped a great deal to ensure they were all linked right.&lt;/p>
+&lt;h2 id="future-optimizations">Future optimizations
+&lt;/h2>&lt;p>For example, right now when NPCs are looking for a bathroom, they will look for the nearest one that isn’t too crowded. This sounds good on paper but if every room has a private bathroom in it, then it will try and fail many times before it finds a bathroom it can actually pathfind to. This is bad, especially if many NPCs do this since its very slow and causes lag. Originally I had this problem with beds too. In the future, I want to make it so that buildable pathfinding nodes will add themselves to a public list if they are in a public space. If they are not in a public space they won&amp;rsquo;t be added. When an NPC needs to go to the bathroom, it will consider everything in the public list along with everything in any private rooms it has access to.&lt;/p></description></item><item><title>Hello World</title><link>https://blog.leahdevs.xyz/p/hello-world/</link><pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate><guid>https://blog.leahdevs.xyz/p/hello-world/</guid><description>&lt;h2 id="where-i-used-to-write-my-blogs">Where I used to write my blogs
+&lt;/h2>&lt;p>Today is the day where I finally set up a blog! I did write a blog post &lt;a class="link" href="https://blog.winter-software.com/2024/04/01/Making_Your_First_Misskey_Plugin" target="_blank" rel="noopener"
+>here&lt;/a> before. That will stay, but ill probably pull that post into here to keep all my posts in 1 place. I also like this better than the other blog site because although I love helping out and using my friends software I would have to wait for them to approve any new articles or changes to articles I make&amp;hellip; Which if I make a mistake and want to change it quickly is kinda a pain. (nothing against the software tho, its neat!)&lt;/p>
+&lt;h2 id="motivation-for-making-my-own-blog-site">Motivation for making my own blog site
+&lt;/h2>&lt;p>Well as I said I like that I can edit things whenever without having to go through a review, but I also liked the idea of being able to customize the style of this blog, and add stuff. (I love to tweak and customize). And yes this blog right now is from a template but I have already tweaked and added to it! I also wanted to use my domain more and thought it would be neat to put my blogs on here too! Oh also I love self hosting stuff soo.&lt;/p>
+&lt;h2 id="anyways-what-will-i-be-posting-here">Anyways what will I be posting here?
+&lt;/h2>&lt;p>Probably me explaining stuff that I have worked on, tutorials, maybe some trans stuff, but we will see.&lt;/p>
+&lt;p>Alright thats it for now byee!&lt;/p></description></item><item><title>Making your first misskey plugin</title><link>https://blog.leahdevs.xyz/p/making-your-first-misskey-plugin/</link><pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate><guid>https://blog.leahdevs.xyz/p/making-your-first-misskey-plugin/</guid><description>&lt;p>This is a mirror of my blogpost &lt;a class="link" href="https://blog.winter-software.com/2024/04/01/Making_Your_First_Misskey_Plugin" target="_blank" rel="noopener"
+>here&lt;/a>.&lt;/p>
+&lt;p>Do you want to make a plugin for all the various key software that exist out there? Well in this blog I will be writing about making a basic plugin and explaining the basics of AIscript. Later I may make a follow-up post on more advanced stuff related to misskey plugins, widgets, and plays development.&lt;/p>
+&lt;h2 id="the-basics-of-aiscript">The basics of AIscript
+&lt;/h2>&lt;p>AIscript is a weird very specific language that won&amp;rsquo;t compile if a space is missing or something like that. Usually in other languages, this is not an issue, but here you better keep all your code clean and organized because otherwise it won&amp;rsquo;t compile. This has stumped me many times before so make sure you pay attention to this.
+I&amp;rsquo;m not going to teach the very basic syntax since that can be viewed &lt;a class="link" href="https://github.com/aiscript-dev/aiscript/blob/master/translations/en/docs/get-started.md" target="_blank" rel="noopener"
+>here on github&lt;/a> in English. Instead, I&amp;rsquo;ll talk about the things it doesn&amp;rsquo;t go over.&lt;/p>
+&lt;p>This basic program below won&amp;rsquo;t run:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">let&lt;/span> &lt;span class="nx">a&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">10&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="nx">a&lt;/span>&lt;span class="o">==&lt;/span>&lt;span class="mi">10&lt;/span>&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">a&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>The reason for this is that there is not a space between the 10 and the opening squiggly bracket. Keep in mind it doesn&amp;rsquo;t care if there is no spacing around your variable declarations. In various examples, you may find you might see different ways to do things. I prefer to use &lt;code>print(&amp;quot;Hi&amp;quot;)&lt;/code> but &lt;code>&amp;lt;: &amp;quot;Hi&amp;quot;&lt;/code> works too. Also, you may notice that using the keyword &lt;code>return&lt;/code> is optional for example both&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="err">@&lt;/span>&lt;span class="nx">multipleByTwo&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">x&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">(&lt;/span>&lt;span class="nx">x&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>or&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="err">@&lt;/span>&lt;span class="nx">multipleByTwo&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">x&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">x&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>are valid and work. Also, keep in mind that if statements can return things too.&lt;/p>
+&lt;h3 id="variables">Variables
+&lt;/h3>&lt;p>There are 2 ways to make a new variable in AIscript.
+&lt;code>let a = 10&lt;/code> or &lt;code>var a = 10&lt;/code>&lt;/p>
+&lt;p>So what&amp;rsquo;s the difference? if you go with &lt;code>let&lt;/code> it won&amp;rsquo;t let you reassign it. It&amp;rsquo;s a constant now. &lt;code>var&lt;/code> on the other hand lets you reassign it to a new value.&lt;/p>
+&lt;p>Also, keep in mind when making a plugin or anything in AIscript that it is a bit of a pain to test in misskey. The process for testing and debugging is to add it like a normal plugin and if it fails remove it, change the code, and add it again. This can be slow but for now, it&amp;rsquo;s the only way to test it. Eventually, you get pretty good at not making silly mistakes and you can use some of the tools below to speed stuff up so you don&amp;rsquo;t have to go through all this.&lt;/p>
+&lt;h2 id="making-a-plugin">Making a plugin
+&lt;/h2>&lt;p>For a plugin to be accepted by any key software it needs to include some metadata at the top of the file. Let&amp;rsquo;s take a look at the metadata for my pronoun plugin.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">/// @ 0.12.4
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="err">###&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">name&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;Pronouns in name&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">version&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;2.1.3&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">author&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;@ChaosKitsune@woem.men&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">description&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;This will try to put the user&amp;#39;s pronouns in their name on any given post&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">permissions&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="kc">null&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">config&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">experimentalDescMethod&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">type&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;boolean&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">label&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;Use experimental algorithm&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">description&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;This could put some random stuff in their name, but also will allow for more accurate pronouns&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">default&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="kc">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">debugExperimentalDescMethod&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">type&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;boolean&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">label&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;Debug experimental algorithm&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">description&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;Prints the data related to the setting above&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">default&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="kc">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">checkFields&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">type&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;boolean&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">label&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;Check Fields&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">description&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;If its crashing try disabling this&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">default&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">debug&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">type&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;boolean&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">label&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;Debug&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">description&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;If it fails to find pronouns it will put (unknown) at the end of the name&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">default&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="kc">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>In the first line, we are saying what version of the language we want to use. It won&amp;rsquo;t run without it. I suggest just using the version I have here. Inside here you will see the name of the plugin, the version of the plugin (This can be anything, note that a v is appended before this when it&amp;rsquo;s shown to the user so I suggest not putting a v), and the author for credit. You can also see the permissions here which is either null or an array of strings stating all the permissions your plugin needs based on what API endpoints your plugin may use. You can find all that &lt;a class="link" href="https://misskey.io/api-doc" target="_blank" rel="noopener"
+>here on misskey.io&lt;/a> if you plan on doing that. Under that, you will see the config. This is shown in the UI and allows users to intuitively enable and disable features or whatever you want for your plugin. In this example, it only shows booleans being used but it supports things like strings if you input &lt;code>string&lt;/code> instead. If I wanted to get the value of the debug variable I just needed to do &lt;code>Plugin:config.debug&lt;/code> Keep in mind that when you update the plugin all the variables will be reset to their defaults.&lt;/p>
+&lt;h3 id="the-actual-plugin">The actual plugin
+&lt;/h3>&lt;p>Once you have all that set up there are a lot of different ways you can go. Depending on what you want to do with the plugin this bit will look very different but most of the time you will register an action or interrupter. You can check all those out &lt;a class="link" href="https://misskey-hub.net/en/docs/for-developers/plugin/plugin-api-reference/" target="_blank" rel="noopener"
+>here&lt;/a>.&lt;/p>
+&lt;p>For this example, I will be writing a quick plugin that replaces meows in any post with woems.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">/// @ 0.12.4
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="err">###&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">name&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;Woemer&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">version&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;1.0.0-aiscript0.12.4&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">author&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;@ChaosKitsune@woem.men&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">description&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;Converts meows to woems&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">permissions&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="kc">null&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">config&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="kc">null&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Plugin&lt;/span>&lt;span class="o">:&lt;/span>&lt;span class="nx">register_note_view_interruptor&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="err">@&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">note&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">note&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">text&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">Str&lt;/span>&lt;span class="o">:&lt;/span>&lt;span class="nx">replace&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">note&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;meow&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;woem&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">note&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">})&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>As you can see we registered a note view interruptor. What this does is before the post is shown to the viewer (you or whoever may install your plugin) it changes its contents. This doesn&amp;rsquo;t actually change the post, it&amp;rsquo;s almost the same as if you were to manually go into inspect element and edit it. It&amp;rsquo;s a change only you will see. Anyways it takes the text of the note and replaces all instances of &lt;code>meow&lt;/code> with &lt;code>woem&lt;/code>. There are many other things here you can edit such as the name of the user who posted it. This is exactly what I do with my pronoun plugin to display pronouns in the username.&lt;/p>
+&lt;p>Again keep in mind that there are many different types of actions and interrupters, some change stuff only for you, and some like the &lt;code>register_note_post_interruptor&lt;/code> edit the post right before it is posted so everyone can see these changes.&lt;/p>
+&lt;h3 id="api-endpoints">API Endpoints
+&lt;/h3>&lt;p>But what if we wanted to do some fancy stuff with the misskey API? As mentioned before you can look &lt;a class="link" href="https://misskey.io/api-doc" target="_blank" rel="noopener"
+>here&lt;/a> for all the endpoints but for this demo we will just be making it send a notification when the plugin is installed correctly.&lt;/p>
+&lt;p>First off we are going to need to specify we want to use notifications in the header bit like so &lt;code>permissions: [&amp;quot;write:notifications&amp;quot;]&lt;/code>. In the docs, we can see it takes a body, a header, and a URL to an image. Only the body is required.&lt;/p>
+&lt;p>I wrote this nice function that allows you to easily use notifications in your plugin. I also included but commented out the header and icon. If you want to use them feel free to add them back&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="err">@&lt;/span>&lt;span class="nx">send_notification&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">message&lt;/span>&lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">Mk&lt;/span>&lt;span class="o">:&lt;/span>&lt;span class="nx">api&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;notifications/create&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">body&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">message&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//header: &amp;#34;Header Text&amp;#34;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="c1">//icon: &amp;#34;url here&amp;#34;
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="p">})&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Now we could just call that and it would work however it would send a notification each time the tab reloaded, or a new tab was opened. That would be super annoying! If we just want to send a notification on installation we can save some data. Saved data is isolated and no other plugin can access your plugin&amp;rsquo;s saved data though keep in mind your plugin loses all its saved data on update since you have to delete and re-add the plugin to update it.&lt;/p>
+&lt;p>Here is how you could use that to make it only send the notification once.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="nx">Mk&lt;/span>&lt;span class="o">:&lt;/span>&lt;span class="nx">load&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;notFirstTime&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">!=&lt;/span> &lt;span class="kc">true&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">send_notification&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Plugin installed!&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">Mk&lt;/span>&lt;span class="o">:&lt;/span>&lt;span class="nx">save&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;notFirstTime&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kc">true&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Saving stuff is super useful.&lt;/p>
+&lt;h2 id="installing-and-distributing-the-plugin">Installing and distributing the plugin
+&lt;/h2>&lt;p>Right now there is no place to put your plugin for others to find so you have to get it around by word of mouth on fedi. I hope to sometime fix this and make some sort of site where people can put their plugins that they made if this becomes more popular.&lt;/p>
+&lt;p>The way to install it is to put the code somewhere people can just copy and paste it into their settings under plugins. Yes, its a bit of a pain for the user but it&amp;rsquo;s the only way for now.&lt;/p>
+&lt;h2 id="extra-tools-and-resources-to-help">Extra tools and resources to help
+&lt;/h2>&lt;p>Want to test or get a better error message as to why your program isn&amp;rsquo;t compiling?
+Go to &lt;a class="link" href="https://aiscript-dev.github.io/aiscript/" target="_blank" rel="noopener"
+>aiscript github page&lt;/a>&lt;/p>
+&lt;p>Need the English docs to the language?
+Go to &lt;a class="link" href="https://github.com/aiscript-dev/aiscript/tree/master/translations/en/docs" target="_blank" rel="noopener"
+>aiscript english docs&lt;/a>&lt;/p>
+&lt;p>Looking for how to use the API?
+Go to &lt;a class="link" href="https://misskey-hub.net/en/docs/for-developers/plugin/plugin-api-reference/" target="_blank" rel="noopener"
+>misskey-hub plugin api docs&lt;/a>&lt;/p>
+&lt;p>Need more docs on the plugin header?
+Go &lt;a class="link" href="https://misskey-hub.net/en/docs/for-developers/plugin/create-plugin/" target="_blank" rel="noopener"
+>Here&lt;/a>&lt;/p>
+&lt;p>Looking for all the API endpoints?
+Go to &lt;a class="link" href="https://misskey.io/api-doc" target="_blank" rel="noopener"
+>misskey api docs&lt;/a>&lt;/p>
+&lt;p>If you want to edit your AIscript in vscode here is a useful plugin I use for syntax highlighting: &lt;a class="link" href="https://marketplace.visualstudio.com/items?itemName=ThatOneCalculator.aiscript" target="_blank" rel="noopener"
+>visual studio marketplace&lt;/a>.&lt;/p>
+&lt;h2 id="some-last-notes">Some last notes
+&lt;/h2>&lt;p>Keep in mind AIscript is kinda weird, and I have run into bugs. For example, the &lt;code>register_note_post_interruptor&lt;/code> is somewhat broken and won&amp;rsquo;t work right away even with the examples. Long story short it converted some API undefineds to nulls and this became an issue. Here is the fix if you need it:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Plugin&lt;/span>&lt;span class="o">:&lt;/span>&lt;span class="nx">register_note_post_interruptor&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="err">@&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">note&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//My fix for misskeys broken AIscript
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="kd">var&lt;/span> &lt;span class="nx">newPost&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">let&lt;/span> &lt;span class="nx">keys&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">Obj&lt;/span>&lt;span class="o">:&lt;/span>&lt;span class="nx">keys&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">note&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span> &lt;span class="kd">let&lt;/span> &lt;span class="nx">i&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">keys&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">len&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">let&lt;/span> &lt;span class="nx">key&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">keys&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="nx">i&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="nx">note&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="nx">key&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">!=&lt;/span> &lt;span class="kc">null&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">newPost&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="nx">key&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">note&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="nx">key&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//Do the stuff you normally would here like editing the text
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="k">return&lt;/span> &lt;span class="nx">newPost&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">})&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>I also recommend looking over plugins other people made and learning from them. Here are some of my plugins if you want to look at the code:
+&lt;a class="link" href="https://github.com/ChaoticLeah/pronoun-plugin" target="_blank" rel="noopener"
+>My pronoun plugin&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://woem.men/@ChaosKitsune/pages/1704460749056" target="_blank" rel="noopener"
+>https://woem.men/@ChaosKitsune/pages/1704460749056&lt;/a>
+&lt;a class="link" href="https://woem.men/@ChaosKitsune/pages/1711151651951" target="_blank" rel="noopener"
+>https://woem.men/@ChaosKitsune/pages/1711151651951&lt;/a>&lt;/p></description></item><item><title>Learning docker to make Leahsafe (A personal drive)</title><link>https://blog.leahdevs.xyz/p/learning-docker-to-make-leahsafe/</link><pubDate>Mon, 11 Nov 2024 17:00:00 +0000</pubDate><guid>https://blog.leahdevs.xyz/p/learning-docker-to-make-leahsafe/</guid><description>&lt;img src="https://blog.leahdevs.xyz/p/learning-docker-to-make-leahsafe/cover.png" alt="Featured image of post Learning docker to make Leahsafe (A personal drive)" />&lt;style>
+.bg {
+background-color: #005b972f;
+color: #fff;
+padding: 20px;
+padding-left: 25px;
+padding-right: 25px;
+border-radius: 8px;
+}
+.title {
+font-size: 20px;
+margin-top: 0;
+margin-bottom: 10px;
+color: #00C2FF;
+font-weight: bold;
+}
+.title::before {
+content: "ℹ️ ";
+}
+[data-scheme="light"] .bg {
+color: #000;
+}
+[data-scheme="light"] .title {
+color: #004471;
+}
+.bg.alert {
+background-color: #ff00002f;
+color: #fff4f4;
+.title {
+color: #ff0000;
+}
+.title::before {
+content: "🚨 ";
+}
+}
+[data-scheme="light"] .bg.alert {
+background-color: #ffc7c7;
+color: #420000;
+.title {
+color: #c30000;
+}
+}
+.bg.warning {
+background-color: #ffcc002f;
+color: #fffbeb;
+.title {
+color: #ffcc00;
+}
+.title::before {
+content: "⚠️ ";
+}
+}
+[data-scheme="light"] .bg.warning {
+background-color: #f8ebb2;
+color: #312700;
+.title {
+color: #a88600;
+}
+}
+&lt;/style>
+&lt;div class="bg ">
+&lt;p class="title">What this article is&lt;/p>
+&lt;p>This is a hybrid of me telling a story and some notes for when I use docker again. I may get some stuff wrong. If you know docker pretty well you probably know all the docker bits very well. Feel free to correct me if I get stuff wrong.&lt;/p>
+&lt;/div>
+&lt;h2 id="introduction">Introduction
+&lt;/h2>&lt;p>Recently I decided to host my own personal &lt;a class="link" href="https://drive.leahdevs.xyz/" target="_blank" rel="noopener"
+>drive&lt;/a> since often I have to send small files to friends, or myself. Sometimes it&amp;rsquo;s early builds of my games, and sometimes images. Looking around I found chibisafe. It looked nice and worked as a general drive which was exactly what I needed, and as a bonus, it looked nice, had a PWA, and was somewhat customizable. Well after much struggle from figuring out how to set it up with nginx, I realized I wanted to style it more. The problem is it was in a docker container, and from what I remembered at the time it&amp;rsquo;s very hard to edit stuff in docker containers. I would have to fork the software and learn docker a bit more than just knowing to run &lt;code>docker compose up&lt;/code>. For anyone interested they can also self-host a drive using my software &lt;a class="link" href="https://github.com/ChaoticLeah/leahsafe" target="_blank" rel="noopener"
+>here&lt;/a> Also a lot of this article was learned from &lt;a class="link" href="https://medium.com/@komalminhas.96/a-step-by-step-guide-to-build-and-push-your-own-docker-images-to-dockerhub-709963d4a8bc" target="_blank" rel="noopener"
+>this article&lt;/a>. A lot of this is just quick notes for me to look back at later, but I hope it helps someone.&lt;/p>
+&lt;style>
+.bg {
+background-color: #005b972f;
+color: #fff;
+padding: 20px;
+padding-left: 25px;
+padding-right: 25px;
+border-radius: 8px;
+}
+.title {
+font-size: 20px;
+margin-top: 0;
+margin-bottom: 10px;
+color: #00C2FF;
+font-weight: bold;
+}
+.title::before {
+content: "ℹ️ ";
+}
+[data-scheme="light"] .bg {
+color: #000;
+}
+[data-scheme="light"] .title {
+color: #004471;
+}
+.bg.alert {
+background-color: #ff00002f;
+color: #fff4f4;
+.title {
+color: #ff0000;
+}
+.title::before {
+content: "🚨 ";
+}
+}
+[data-scheme="light"] .bg.alert {
+background-color: #ffc7c7;
+color: #420000;
+.title {
+color: #c30000;
+}
+}
+.bg.warning {
+background-color: #ffcc002f;
+color: #fffbeb;
+.title {
+color: #ffcc00;
+}
+.title::before {
+content: "⚠️ ";
+}
+}
+[data-scheme="light"] .bg.warning {
+background-color: #f8ebb2;
+color: #312700;
+.title {
+color: #a88600;
+}
+}
+&lt;/style>
+&lt;div class="bg warning">
+&lt;p class="title">Warning about hosting this software&lt;/p>
+&lt;p>This was a personal project to change some things and to learn, it may not always be the most up to date. It may also be a little bit broken (though ill try to keep the docker releases bug free)&lt;/p>
+&lt;p>Right now the only known bug is that dark theme is a little broken on the home page&lt;/p>
+&lt;/div>
+&lt;h2 id="learning-to-publish-a-docker-container">Learning to publish a docker container
+&lt;/h2>&lt;p>For more details please refer to &lt;a class="link" href="https://medium.com/@komalminhas.96/a-step-by-step-guide-to-build-and-push-your-own-docker-images-to-dockerhub-709963d4a8bc" target="_blank" rel="noopener"
+>this article&lt;/a>. Ill just be going over the main points.&lt;/p>
+&lt;h3 id="building">Building
+&lt;/h3>&lt;p>So first I needed to build the docker container based on a dockerfile. For the server, I ran
+&lt;code>docker build -t leahsafe-server . -f .\docker\DockerfileServer&lt;/code>. This tells it to build a docker container with the name leahsafe-server, and it also provides the location of the dockerfile to use. This isn&amp;rsquo;t needed if you have a single top-level dockerfile named &lt;code>Dockerfile&lt;/code> but in this case, there are 2 Dockerfiles (1 for the server, and one for the frontend).&lt;/p>
+&lt;p>To check this has worked &lt;code>docker images&lt;/code> can be run and we should see &lt;code>leahsafe-server&lt;/code>. It can even be run now, but it&amp;rsquo;s not public yet.&lt;/p>
+&lt;h3 id="tagging">Tagging
+&lt;/h3>&lt;p>Next, we need to tag the image. For this we will use &lt;code>docker tag&lt;/code>, and according to the article here is how it&amp;rsquo;s used: &lt;code>docker tag &amp;lt;name of the image&amp;gt; &amp;lt;dockerhub username&amp;gt; &amp;lt;name of your repo&amp;gt; &amp;lt;version&amp;gt;&lt;/code>. So I wanted to do a new release so I tagged this image so that docker knows it is the latest build by running &lt;code>docker tag leahsafe-server:latest chaoticleah/leahsafe-server:latest&lt;/code>&lt;/p>
+&lt;h3 id="pushing">Pushing
+&lt;/h3>&lt;p>Finally, we need to push the image after it has been made. Following this format &lt;code>docker push &amp;lt;image name&amp;gt; &amp;lt;version name&amp;gt;&lt;/code>, running &lt;code>docker push chaoticleah/leahsafe-server:latest&lt;/code> will push this image. You will also have to log into your dockerhub account once before running this. &lt;code>docker login&lt;/code> should do the trick (Just read what it says and follow along to log in)&lt;/p>
+&lt;h3 id="publishing-the-frontend">Publishing the frontend
+&lt;/h3>&lt;p>For some reason the frontend is in a separate docker container, I don&amp;rsquo;t quite understand why but I wasn&amp;rsquo;t going to change that all around for no reason so to build the frontend I did everything above again just remove the &lt;code>-server&lt;/code> from most commands.&lt;/p>
+&lt;h2 id="pulling-the-container">Pulling the container
+&lt;/h2>&lt;p>Running pre-made containers can be run through a super long docker command, but this is not encouraged unless you are just testing something out. In most cases, you will want to make a &lt;code>docker-compose.yml&lt;/code>. To me these somewhat make sense but I&amp;rsquo;d still have to reference a lot to make one on my own, thankfully I mostly just pulled chibisafes docker-compose and changed some stuff and it worked.&lt;/p>
+&lt;h2 id="so-what-did-i-end-up-adding-to-leahsafe">So what did I end up adding to leahsafe?
+&lt;/h2>&lt;p>Not a huge amount. I restyled the home page and added a contact page that can be changed in the settings. Most of the stuff is style changes, and it was more of a fun learning experience, but who knows I might add some more stuff later. Feel free to host a leahsafe instance, I&amp;rsquo;d love to hear if you do, but I can&amp;rsquo;t guarantee I&amp;rsquo;ll keep it super up to date with upstream. The instructions to run it have been put in the repo&amp;rsquo;s readme. Check it out &lt;a class="link" href="https://github.com/ChaoticLeah/leahsafe" target="_blank" rel="noopener"
+>here&lt;/a>. If you would rather host a &lt;a class="link" href="https://github.com/chibisafe/chibisafe" target="_blank" rel="noopener"
+>chibisafe&lt;/a> instance then here you go.&lt;/p>
+&lt;p>So in the end I still have a lot more to learn about docker. Of course, practice will help a lot, but I think this really helped me understand how it works more.&lt;/p>
+&lt;h2 id="other-useful-stuff">Other useful stuff
+&lt;/h2>&lt;ul>
+&lt;li>.dockerignore - Tells docker not to include these files in the build&lt;/li>
+&lt;/ul></description></item><item><title>Archives</title><link>https://blog.leahdevs.xyz/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://blog.leahdevs.xyz/archives/</guid><description/></item><item><title>Links</title><link>https://blog.leahdevs.xyz/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.leahdevs.xyz/links/</guid><description/></item><item><title>Search</title><link>https://blog.leahdevs.xyz/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.leahdevs.xyz/search/</guid><description/></item></channel></rss>
