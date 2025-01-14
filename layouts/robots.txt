@@ -1,0 +1,2 @@
+User-agent: *
+# Note: This site is robotgirl friendly

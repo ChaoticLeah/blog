@@ -17,6 +17,10 @@ disqusShortname = "leahs-blog"
 # Build timeout for the git build pipeline
 timeout = 10000
 
+enableRobotsTXT = true
+enableEmoji = true
+enableGitInfo = true
+
 [pagination]
 pagerSize = 5
 
