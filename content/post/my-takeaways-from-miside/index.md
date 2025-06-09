@@ -16,15 +16,6 @@ links:
 weight: 1 # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-{{% console value="Cappie is the best and must be protected at all costs. Also hi you found this pages easter egg." %}}
-
-{{< console value="Oh hi there!" delay="20000" >}}
-
-{{< console value="Hope you are enjoying the stay" delay="30000" >}}
-
-{{< console value="Hopefully this different kind of blog doesnt suck lol" delay="35000" >}}
-
-
 This blog is a bit different from normal. There's no tutorial, nothing I'm showing off, just me collecting my thoughts since I started playing this game it really caught me. No other game has done that since DDLC. But why? And what can I learn from it as a gamedev?
 
 {{% callout title="Spoiler warning!" type="warning" %}}
@@ -92,3 +83,12 @@ I might continue this, but the core concept I came up with was from git version 
 
 ## What I'm doing with my train game (and my current thoughts on it.)
 I'm sure at least one of you reading enjoys my train game, and don't worry it's not over. I'm just quite busy trying to survive university. I'm not replacing that project with a horror game. I might mess around with some ideas on the side but I actually am taking away some things from this horror game for my train game, and no don't worry it's not about to become a trippy train horror game 4th wall-breaking puzzle game. The story, characters, and the feeling of belonging that they all bring, the feeling of helping them. I want to try to bring this all to the train game. For months I've been debating if the player should have a body or just be floating. From a purely building standpoint, I think floating is better. I think for building I might make you float. I also feel like from an emotional connections standpoint the fact that you have no body will make it hard to connect to others and the world around you. I had been considering this for a while because having no physical body makes you feel detached from the world. Taking some time to get from point A to point B on your train doesn't have to be a bad thing. If you hate it: design your train better so you can get between floors easier, but stuff taking time and taking it slow will help you build a connection. I want to make the people who come on the train memorable.... Or at least have some core story characters who you need to help out who you will connect with and remember.
+
+
+{{% console value="Cappie is the best and must be protected at all costs. Also hi you found this pages easter egg." %}}
+
+{{< console value="Oh hi there!" delay="20000" >}}
+
+{{< console value="Hope you are enjoying the stay" delay="30000" >}}
+
+{{< console value="Hopefully this different kind of blog doesnt suck lol" delay="35000" >}}
