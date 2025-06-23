@@ -8,7 +8,7 @@ date: 2024-11-10 00:00:00+0000
 #     - Example Category
 # tags:
 #     - Example Tag
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+# weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 ## Where I used to write my blogs

@@ -44,7 +44,7 @@ links:
       description: The plural plugin code and instructions
       website: https://woem.men/@ChaosKitsune/pages/1711151651951
 
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+# weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 This is a mirror of my blogpost [here](https://blog.winter-software.com/2024/04/01/Making_Your_First_Misskey_Plugin).

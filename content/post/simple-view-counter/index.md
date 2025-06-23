@@ -11,7 +11,7 @@ links:
       description: View the code or install it here
       website: https://github.com/ChaoticLeah/simple-view-counter
 
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+# weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 ## What is it?

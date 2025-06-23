@@ -4,7 +4,7 @@ description: A little blog about some thoughts I had about gender and never rele
 slug: why-does-gender-matter
 date: 2025-06-07 00:00:00+0000
 image: thumbnail.png
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+# weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 Gender is weird. It's confusing. I'm still confused. This post is not like my others: It's just going to be me breaking down my thoughts on gender. I don't think I can even make a dent in this subject though. 

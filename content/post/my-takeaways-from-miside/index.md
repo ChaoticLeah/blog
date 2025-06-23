@@ -13,7 +13,7 @@ links:
     description: Go check out Doki Doki Literature Club (its free, the therapy isnt)
     website: https://store.steampowered.com/app/698780/Doki_Doki_Literature_Club/
     image: ddlc.webp
-weight: 1 # You can add weight to some posts to override the default sorting (date descending)
+# weight: 1 # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 This blog is a bit different from normal. There's no tutorial, nothing I'm showing off, just me collecting my thoughts since I started playing this game it really caught me. No other game has done that since DDLC. But why? And what can I learn from it as a gamedev?
