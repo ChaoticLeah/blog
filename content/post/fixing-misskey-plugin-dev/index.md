@@ -2,7 +2,7 @@
 title: Fixing the pains of Misskey plugin development
 description: How I fixed the plugin development process for misskey plugins
 slug: fixing-misskey-plugin-dev
-date: 2025-06-23 17:00:00+0000
+date: 2025-06-23 16:00:00+0000
 image: cover.png
 categories:
     - Programming
