@@ -120,7 +120,7 @@ As of writing this the plugin isn't super polished since I plan to move away fro
 - Install a chrome or chrome-based browser
 - From the command line run ``chrome --remote-debugging-port=9222 --no-sandbox --remote-allow-origins=*``
 - Make sure you are logged into the instance and have manually installed your plugin on the first slot
-- After that press F1 and run `Run AIScript plugin watcher`
+- After that go back to Visual Studio Code, press F1, and run `Run AIScript plugin watcher`
 - If everything worked it should open up on a new tab ready to live reload
 ### Unit Testing
 - Make a test file
