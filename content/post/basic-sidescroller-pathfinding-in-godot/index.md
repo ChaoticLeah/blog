@@ -2,7 +2,7 @@
 title: Basic Sidescroller pathfinding in godot
 description: How I did it for my train game
 slug: basic-sidescroller-pathfinding-in-godot
-date: 2024-11-10 18:00:00+0000
+date: 2024-11-10 18:00:00+0200
 image: cover.webp
 categories:
     - Programming
