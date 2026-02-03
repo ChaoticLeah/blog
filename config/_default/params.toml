@@ -86,7 +86,7 @@ ShowPageViews = true
 ## Comments
 [comments]
 enabled = true
-provider = "cactus"
+provider = "fedi"
 
 [comments.disqusjs]
 shortname = ""

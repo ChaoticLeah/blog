@@ -1,0 +1,15 @@
+{{ if .Params.comment_post }}
+    {{ if and .Params.comment_post.host .Params.comment_post.id }}
+        {{ $css := resources.Get "css/fedi-comments.css" }}
+        {{ if $css }}
+            <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+        {{ end }}
+
+        {{ $js := resources.Get "js/fedi-comments.js" }}
+        {{ if $js }}
+            <script src="{{ $js.RelPermalink }}" defer></script>
+        {{ end }}
+
+        <fedi-comments host="{{ .Params.comment_post.host }}" id="{{ .Params.comment_post.id }}"></fedi-comments>
+        {{ end }}
+{{ end }}
