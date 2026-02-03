@@ -6,6 +6,9 @@ date: 2024-11-10 18:00:00+0200
 image: cover.webp
 categories:
     - Programming
+comment_post:
+  host: infosec.exchange
+  id: 116008862895014640
 # tags:
 #     - Example Tag
 # weight: 1       # You can add weight to some posts to override the default sorting (date descending)

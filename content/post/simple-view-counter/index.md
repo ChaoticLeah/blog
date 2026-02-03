@@ -10,7 +10,9 @@ links:
     - title: Simple View Counter Repo
       description: View the code or install it here
       website: https://github.com/ChaoticLeah/simple-view-counter
-
+comment_post:
+  host: infosec.exchange
+  id: 116008888349428882
 # weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 

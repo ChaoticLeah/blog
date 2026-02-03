@@ -11,6 +11,9 @@ links:
       description: Read more about the project or install it here
       website: https://github.com/ChaoticLeah/Forkly
       image: cover.webp
+comment_post:
+  host: infosec.exchange
+  id: 116008894896664510
 # tags:
 #     - Example Tag
 # weight: 1 # You can add weight to some posts to override the default sorting (date descending)

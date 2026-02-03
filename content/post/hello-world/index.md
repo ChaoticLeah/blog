@@ -3,6 +3,9 @@ title: Hello World
 description: I have a personal blog site now!
 slug: hello-world
 date: 2024-11-10 00:00:00+0000
+comment_post:
+  host: infosec.exchange
+  id: 116008854528312670
 # image: cover.jpg
 # categories:
 #     - Example Category

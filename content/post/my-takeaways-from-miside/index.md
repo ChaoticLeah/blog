@@ -13,6 +13,9 @@ links:
     description: Go check out Doki Doki Literature Club (its free, the therapy isnt)
     website: https://store.steampowered.com/app/698780/Doki_Doki_Literature_Club/
     image: ddlc.webp
+comment_post:
+  host: infosec.exchange
+  id: 116008900691396480
 # weight: 1 # You can add weight to some posts to override the default sorting (date descending)
 ---
 

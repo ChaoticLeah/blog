@@ -9,6 +9,9 @@ categories:
     - Tutorial
 tags:
     - AIscript
+comment_post:
+  host: infosec.exchange
+  id: 116008925455341259
 links:
     - title: The plugin
       description: The plugin on the visual studio marketplace

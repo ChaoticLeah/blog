@@ -4,6 +4,9 @@ description: A little blog about some thoughts I had about gender and never rele
 slug: why-does-gender-matter
 date: 2025-06-07 00:00:00+0000
 image: thumbnail.png
+comment_post:
+  host: infosec.exchange
+  id: 116008909593393800
 # weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 

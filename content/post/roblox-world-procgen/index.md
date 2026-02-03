@@ -18,6 +18,9 @@ links:
       website: https://www.youtube.com/watch?v=ob3VwY4JyzE
 categories:
     - Programming
+comment_post:
+  host: infosec.exchange
+  id: 116008882763537915
 # tags:
 #     - Example Tag
 # weight: 1       # You can add weight to some posts to override the default sorting (date descending)
