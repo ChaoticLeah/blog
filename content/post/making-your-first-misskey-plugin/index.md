@@ -9,6 +9,9 @@ categories:
     - Tutorial
 tags:
     - AIscript
+comment_post:
+  host: infosec.exchange
+  id: 116008525905382107
 links:
     - title: Original blog post
       description: Mirror of this blog post on my blog
