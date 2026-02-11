@@ -190,11 +190,7 @@ class FediComments extends HTMLElement {
       ></fedi-comment-composer>
     `;
   }
-
-  renderCommentForm(postUrl, userData) {
-    return '';
-  }
-
+  
   isLoggedIn() {
     return !!localStorage.getItem('fedi_access_token');
   }
@@ -256,7 +252,7 @@ class FediComments extends HTMLElement {
     // Disable button and show loading state
     const originalText = button.textContent;
     button.disabled = true;
-    button.textContent = '⏳ Posting...';
+    button.textContent = 'Posting...';
     button.style.opacity = '0.6';
 
     try {
@@ -276,7 +272,7 @@ class FediComments extends HTMLElement {
       if (!response.ok) throw new Error('Failed to post comment');
 
       // Show success message briefly then reload
-      button.textContent = '✓ Posted!';
+      button.textContent = 'Posted!';
 
       setTimeout(() => {
         location.reload();
