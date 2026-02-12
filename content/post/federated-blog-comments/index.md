@@ -2,9 +2,9 @@
 title: Adding federated comments into my blog
 description: How I implemented federated comments into my blog
 slug: federated-blog-comments
-# comment_post:
-#   host: tech.lgbt
-#   id: 115049741541024862
+comment_post:
+  host: infosec.exchange
+  id: 116059334351383524
 date: 2026-02-12 00:00:00+0000
 image: cover.png
 categories:
