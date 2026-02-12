@@ -14,7 +14,6 @@ links:
       description: The repo containing all my blogs code
       website: https://github.com/ChaoticLeah/blog
     
-# weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 A while ago, I wanted to add federated comments to my blog. At the time, I had come across [cactus comments](https://cactus.chat/) through matrix; however, this never ended up working when I tried to implement it in my site. It seemed some part of the project was dead, and I couldn't make it work. I even opened some issues on the repos which got no responses. I also thought about some sort of comments through Fedi however at the time, I thought that would require spinning up a whole Fedi server with the blog incorporated into it somehow, and it seemed like way too much work.
