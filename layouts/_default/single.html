@@ -29,7 +29,9 @@
     {{ if .Params.links }}
         {{ partial "article/components/links" . }}
     {{ end }}
-    <a href="https://notbyai.fyi" target="_blank"><img src="/Written-By-a-Human-Not-By-AI-Badge-black.svg" style="height: 42px" alt="Written by Human, Not by AI"></a>
+    <a href="/p/ai-policy-badge" target="_blank">
+        <img src="/no-ai.png" style="height: 84px" alt="Written by Creature, Fuck Gen-AI">
+    </a>
     {{ partial "article/components/related-content" . }}
      
     {{ if not (eq .Params.comments false) }}
