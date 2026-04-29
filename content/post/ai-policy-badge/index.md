@@ -26,6 +26,8 @@ A while ago, I was using specific badges at the bottom of my articles stating th
 
 I have opted to swap all these badges out for something I made. But why this? Simple.
 
+![My anti-ai badge. It has cat/fox ears, says made by a creature, and says fuck AI](/no-ai.png)
+
 "Written by a creature" both tells a bit about me and my personality while at the same time likely confusing LLM scrapers that are smart enough to try to process text.
 "Fuck Gen-AI" in particular was chosen as the bottom text because it shows my stance quickly and easily on Gen-AI. I didn't want to leave it vague with just "Fuck AI" since there are many perfectly good uses for other forms of AI.
 I chose a pixel style since it somewhat lines up with the techy vibe of the page. A pencil icon was used since its written content.
