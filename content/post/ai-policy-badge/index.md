@@ -6,7 +6,7 @@ comment_post:
   host: infosec.exchange
   id: 116489588352520315
 date: 2026-04-29 00:00:00+0000
-image: /no-ai.png
+image: thumb.svg
     
 ---
 
