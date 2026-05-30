@@ -9,11 +9,12 @@ const ICONS = {
 class FediComments extends HTMLElement {
   connectedCallback() {
     const host = this.getAttribute('host');
+    const username = this.getAttribute('username');
     const id = this.getAttribute('id');
     this.commentLimit = 20;
     this.maxDepth = 3;
-    if (!host || !id) {
-      this.innerHTML = '<p>Missing host or id for fedi comments</p>';
+    if (!host || !id || !username) {
+      this.innerHTML = '<p>Missing host, id, or username for fedi comments</p>';
       return;
     }
 
@@ -187,6 +188,7 @@ class FediComments extends HTMLElement {
         post-url="${postUrl}"
         logged-in="${isLoggedIn ? 'true' : 'false'}"
         user-data='${isLoggedIn ? JSON.stringify(userData).replace(/'/g, '&#39;') : ''}'
+        replying-to="@${this.getAttribute('username')}"
       ></fedi-comment-composer>
     `;
   }
@@ -207,7 +209,7 @@ class FediComments extends HTMLElement {
     location.reload();
   }
 
-  showReplyForm(commentId, username) {
+  showReplyForm(commentId, username, accountHost) {
     // Hide any other open reply forms
     this.querySelectorAll('.fedi-reply-form-container').forEach(container => {
       container.style.display = 'none';
@@ -223,6 +225,7 @@ class FediComments extends HTMLElement {
         mode="reply"
         reply-to="${commentId}"
         replying-to="${username}"
+        post-host="${accountHost}"
         logged-in="true"
         user-data='${JSON.stringify(userData).replace(/'/g, '&#39;')}'
       ></fedi-comment-composer>
@@ -234,20 +237,41 @@ class FediComments extends HTMLElement {
     }
   }
 
-  async submitComment(replyToId = null) {
+  async fetchLocalId(localInstance, postUrl) {
+    try {
+      const response = await fetch(`https://${localInstance}/api/v2/search?q=${postUrl}&resolve=true&limit=1`, {
+        method: 'GET',
+        headers: {
+          'Authorization': `Bearer ${localStorage.getItem('fedi_access_token')}`
+        }
+      });
+      if (!response.ok) throw new Error('Failed to fetch statuses');
+      const statuses = (await response.json())?.statuses || [];
+      const matched = statuses.find(status => status.url === postUrl);
+      return matched ? matched.id : null;
+    } catch (error) {
+      console.error('Fetch local ID error:', error);
+      return null;
+    }
+  }
+
+
+  async submitComment(postUsername, remoteInstance, replyToId = null) {
+    // const post_username = this.getAttribute('username');
     const container = replyToId
-      ? this.querySelector(`[data-reply-to="${replyToId}"]`)
-      : this;
+    ? this.querySelector(`[data-reply-to="${replyToId}"]`)
+    : this;
     const textarea = container?.querySelector('.fedi-comment-textarea');
     const button = container?.querySelector('.fedi-comment-button-primary');
     if (!textarea || !button) return;
-
+    
     const content = textarea.value.trim();
     if (!content) return;
-
+    
     const token = localStorage.getItem('fedi_access_token');
     const instance = JSON.parse(localStorage.getItem('fedi_client_data')).instance;
-    const inReplyToId = replyToId || this.getAttribute('id');
+    const remoteInReplyToId = replyToId || this.getAttribute('id');
+    const inReplyToId = await this.fetchLocalId(instance, `https://${remoteInstance}/${postUsername}/${remoteInReplyToId}`)
 
     // Disable button and show loading state
     const originalText = button.textContent;
@@ -305,6 +329,7 @@ class FediComments extends HTMLElement {
     // Process custom emojis in display name and content
     const displayName = this.replaceEmojis(account.display_name, account.emojis || []);
     const processedContent = this.replaceEmojis(content, emojis || []);
+    const localId = comment.url.split('/')[4];
 
     const likeButton = `
             <fedi-like-button
@@ -314,7 +339,7 @@ class FediComments extends HTMLElement {
               logged-in="${isLoggedIn ? 'true' : 'false'}"
             ></fedi-like-button>
         `;
-
+        
     return `
       <div class="fedi-comment" data-comment-id="${comment.id}">
         <div class="fedi-comment-header">
@@ -338,11 +363,11 @@ class FediComments extends HTMLElement {
                ${likeButton}
                <span class="fedi-comment-stat">${ICONS.MESSAGE} ${replies_count}</span>
             ${isLoggedIn ? `
-              <button class="fedi-reply-button" onclick="document.querySelector('fedi-comments').showReplyForm('${comment.id}', '@${account.username}')">
+              <button class="fedi-reply-button" onclick="document.querySelector('fedi-comments').showReplyForm('${localId}', '@${account.username}', '${accountHost}')">
                 ${ICONS.REPLY} Reply
               </button>
             ` : ''}        </div>
-        <div class="fedi-reply-form-container" data-reply-to="${comment.id}" style="display:none"></div>
+        <div class="fedi-reply-form-container" data-reply-to="${localId}" style="display:none"></div>
       </div>
     `;
   }
@@ -433,7 +458,7 @@ class FediLikeButton extends HTMLElement {
 
 class FediCommentComposer extends HTMLElement {
   static get observedAttributes() {
-    return ['post-url', 'logged-in', 'user-data', 'mode', 'reply-to', 'replying-to'];
+    return ['post-url', 'logged-in', 'user-data', 'mode', 'reply-to', 'replying-to', 'post-host'];
   }
 
   connectedCallback() {
@@ -564,8 +589,8 @@ class FediCommentComposer extends HTMLElement {
       const placeholder = isReply ? 'Write your reply...' : 'Write your comment...';
       const submitLabel = isReply ? 'Post Reply' : 'Post Comment';
       const submitAction = isReply
-        ? `document.querySelector('fedi-comments').submitComment('${replyTo}')`
-        : `document.querySelector('fedi-comments').submitComment()`;
+        ? `document.querySelector('fedi-comments').submitComment('${replyingTo}', '${this.getAttribute('post-host')}', '${replyTo}')`
+        : `document.querySelector('fedi-comments').submitComment('${replyingTo}', '${postUrl.split('/')[2]}')`;
 
       this.innerHTML = `
         <div class="${isReply ? 'fedi-inline-reply-form' : 'fedi-leave-comment'}">
