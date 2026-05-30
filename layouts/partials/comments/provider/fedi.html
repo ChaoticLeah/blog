@@ -10,6 +10,6 @@
             <script src="{{ $js.RelPermalink }}" defer></script>
         {{ end }}
 
-        <fedi-comments host="{{ .Params.comment_post.host }}" id="{{ .Params.comment_post.id }}"></fedi-comments>
+        <fedi-comments host="{{ .Params.comment_post.host }}" id="{{ .Params.comment_post.id }}" username="{{ index .Site.Params.comments "fedi-username" }}"></fedi-comments>
     {{ end }}
 {{ end }}
